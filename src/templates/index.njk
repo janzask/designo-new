@@ -1,17 +1,65 @@
 {% extends '_base.njk' %}
 
-
-{% block title %}Home page{% endblock %}
-
-
 {% block content %}
-    <div class="container">
-        <div class="row">
-            <div class="col p-4">
-                <p class="display-1">It works!</p>
-                <h1>This a basic template to start a website based on Bootstrap&nbsp;{{ bootstrapVersion }}</h1>
-                <p>Also check out <a href="/example-page-1" class="btn btn-success btn-lg">Example page 1</a> and <a href="example-page-2" class="btn btn-danger btn-lg">Example page 2</a>.</p>
-            </div>
-        </div>
-    </div>
-{% endblock %}
+    <main>
+      <article class="intro">
+        <section>
+          <h2>Award-winning custom designs and digital branding solutions</h2>
+          <p>
+            With over 10 years in the industry, we are experienced in creating
+            fully responsive websites, app design, and engaging brand
+            experiences. Find out more about our services.
+          </p>
+          <a href="./about.html">Learn more</a>
+        </section>
+        <section>
+          <img src="" alt="" />
+        </section>
+      </article>
+
+      <article class="services">
+        <a href="./web-design.html">
+          <h2>Web Design</h2>
+          <p>View Projects</p>
+        </a>
+        <a href="./app-design.html">
+          <h2>App Design</h2>
+          <p>View Projects</p>
+        </a>
+        <a href="./graphic-design.html">
+          <h2>Graphic Design</h2>
+          <p>View Projects</p>
+        </a>
+      </article>
+
+      <article class="projects">
+        <section>
+          <img src="" alt="" />
+          <h2>Passionate</h2>
+          <p>
+            Each project starts with an in-depth brand research to ensure we
+            only create products that serve a purpose. We merge art, design, and
+            technology into exciting new solutions.
+          </p>
+        </section>
+        <section>
+          <img src="" alt="" />
+          <h2>Resourceful</h2>
+          <p>
+            Everything that we do has a strategic purpose. We use an agile
+            approach in all of our projects and value customer collaboration. It
+            guarantees superior results that fulfill our clients’ needs.
+          </p>
+        </section>
+        <section>
+          <img src="" alt="" />
+          <h2>Friendly</h2>
+          <p>
+            We are a group of enthusiastic folks who know how to put people
+            first. Our success depends on our customers, and we strive to give
+            them the best experience a company can provide.
+          </p>
+        </section>
+      </article>
+    </main>
+    {% endblock %}
