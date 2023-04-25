@@ -4,13 +4,13 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="stylesheet" href="/index.css">
-        <title></title>
+        <title>{% block title %}{% endblock %}</title>
     </head>
 
     <body>
         <header>
             <h1 class="header-brand">
-                <img class="header-logo" src="./logo/logo-dark.png" alt="Designo"/>
+                <img class="header-logo" src="../static/logo/logo-dark.png" alt="Designo"/>
             </h1>
             <nav class="header-navigation">
                 <ul>
