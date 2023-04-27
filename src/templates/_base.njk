@@ -4,13 +4,14 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="stylesheet" href="/index.css">
-        <title>{% block title %}{% endblock %}</title>
+        <title>
+            {% block title %}{% endblock %}
+        </title>
     </head>
-
     <body>
         <header>
             <h1 class="header-brand">
-                <img class="header-logo" src="../static/logo/logo-dark.png" alt="Designo"/>
+                <img class="header-logo" src="/img/dummy.png" alt="Designo"/>
             </h1>
             <nav class="header-navigation">
                 <ul>
@@ -20,22 +21,21 @@
                 </ul>
             </nav>
         </header>
-
         {% block content %}{% endblock %}
-
-        <article class="business">
-            <section>
-                <h4>Let’s talk about your project</h4>
-                <p>
-                    Ready to take it to the next level? Contact us today and find out how our expertise can help your business
-                    grow.
-                </p>
-            </section>
-            <section>
-                <a href="">Get in touch</a>
-            </section>
-        </article>
-        
+        {% block calltoaction %}
+            <article class="business">
+                <section>
+                    <h4>Let’s talk about your project</h4>
+                    <p>
+                        Ready to take it to the next level? Contact us today and find out how our expertise can help your business
+                        grow.
+                    </p>
+                </section>
+                <section>
+                    <a href="">Get in touch</a>
+                </section>
+            </article>
+        {% endblock %}
         <footer>
             <article>
                 <div class="footer-brand">
