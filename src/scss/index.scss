@@ -4,3 +4,24 @@
     box-sizing: border-box;
   }
 
+  :root {
+    --basic-font-size: 1rem;
+  }
+
+  :root {
+    --primary-colors-peach: #E7816B;
+    --primary-colors-black: #1D1C1E;
+    --primary-colors-white: #FFFFFF;
+    --secondary-colors-light-peach: #FFAD9B;
+    --secondary-colors-dark-grey: #333136;
+    --secondary-colors-light-grey: #F1F3F5;
+  }
+
+  body {
+    font-family: 'Jost', sans-serif;
+    line-height: 1.625;
+    color: var(--secondary-colors-dark-grey);
+    background: var(--primary-colors-white);
+    margin: 0;
+  }
+
