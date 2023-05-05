@@ -1,24 +1,25 @@
-@import 'header';
+@import "header";
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
-  }
+}
 
-  :root {
-    --colors-peach: #E7816B;
-    --colors-black: #1D1C1E;
-    --colors-white: #FFFFFF;
-    --colors-light-peach: #FFAD9B;
+:root {
+    --colors-peach: #e7816b;
+    --colors-black: #1d1c1e;
+    --colors-white: #ffffff;
+    --colors-light-peach: #ffad9b;
     --colors-dark-grey: #333136;
-    --colors-light-grey: #F1F3F5;
-  }
+    --colors-light-grey: #f1f3f5;
+}
 
-  body {
-    font-family: 'Jost', sans-serif;
+body {
+    font-family: "Jost", sans-serif;
     font-size: 1rem;
     line-height: 1.625;
     color: var(--colors-dark-grey);
     background-color: var(--colors-white);
     margin: 0;
-  }
-
+}
