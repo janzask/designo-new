@@ -64,6 +64,8 @@ p {
     line-height: 1.625;
 }
 
+/*---HEADER---*/
+
 .header-brand {
     margin: 0;
     padding: 2.125rem 1.5rem;
@@ -82,4 +84,25 @@ p {
 
 .index-intro {
     background-color: #e7816b;
+}
+
+/*---FOOTER---*/
+
+footer {
+    background-color: #1d1c1e;
+}
+
+.footer-article {
+    padding: 15.75rem 1.5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 100%;
+    border-bottom: #979797 1px solid;
+    padding-bottom: 2rem;
+    padding-left: 3.875rem;
+    padding-right: 3.875rem;
 }
