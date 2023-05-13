@@ -66,13 +66,20 @@ p {
 
 .header-brand {
     margin: 0;
+    padding: 2.125rem 1.5rem;
+    display: flex;
+    align-items: center;
 }
 
 .header-logo {
-    padding: 2.125rem 1.5rem;
     width: 100%;
+    padding-right: 6.25rem ;
 }
 
 .header-navigation {
     display: none;
+}
+
+.index-intro {
+    background-color: #e7816b;
 }
