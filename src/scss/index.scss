@@ -84,13 +84,13 @@ p {
 }
 
 .index-intro {
-    background-color: #e7816b;
+    background-color: var(--colors-peach);
 }
 
 /*---FOOTER---*/
 
 footer {
-    background-color: #1d1c1e;
+    background-color: var(--colors-black);
 }
 
 .footer-article {
@@ -109,7 +109,7 @@ footer {
 
 hr {
     width: 100%;
-    color: #ffffff;
+    color: var(--colors-white);
     opacity: 0.1;
     margin: 0;
 }
@@ -130,7 +130,7 @@ hr {
 }
 
 .footer-navigation a {
-    color: #ffffff;
+    color: var(--colors-white);
     font-size: 0.875rem;
     text-decoration: none;
     text-transform: uppercase;
