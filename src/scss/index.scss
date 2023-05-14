@@ -101,8 +101,14 @@ footer {
 
 .footer-logo {
     width: 100%;
-    border-bottom: #979797 1px solid;
     padding-bottom: 2rem;
     padding-left: 3.875rem;
     padding-right: 3.875rem;
+}
+
+hr {
+    width: 100%;
+    color: #ffffff;
+    opacity: 0.1;
+    margin: 0;
 }
