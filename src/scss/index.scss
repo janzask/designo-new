@@ -67,10 +67,14 @@ p {
 
 /*---HEADER---*/
 
+header {
+    padding: 2.125rem 1.5rem;
+}
+
 .header-brand {
     margin: 0;
-    padding: 2.125rem 1.5rem;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
