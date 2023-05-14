@@ -26,27 +26,25 @@
             </nav>
         </header>
         <main>
-        {% block content %}{% endblock %}
-        {% block calltoaction %}
-            <article class="business">
-                <section>
-                    <h4>Let’s talk about your project</h4>
-                    <p>
-                        Ready to take it to the next level? Contact us today and find out how our expertise can help your business
-                        grow.
-                    </p>
-                </section>
-                <section>
-                    <a href="">Get in touch</a>
-                </section>
-            </article>
-        {% endblock %}
+            {% block content %}{% endblock %}
+            {% block calltoaction %}
+                <article class="business">
+                    <section>
+                        <h4>Let’s talk about your project</h4>
+                        <p>
+                            Ready to take it to the next level? Contact us today and find out how our expertise can help your business
+                            grow.
+                        </p>
+                    </section>
+                    <section>
+                        <a href="">Get in touch</a>
+                    </section>
+                </article>
+            {% endblock %}
         </main>
         <footer>
             <article class="footer-article">
-                <div class="footer-brand">
                     <img class="footer-logo" src="/img/logo/logo-light.png" alt="Designo"/>
-                </div>
                 <hr>
                 <div class="footer-navigation">
                     <ul>
@@ -65,7 +63,7 @@
                     <p>P : +1 253-863-8967</p>
                     <p>M : contact@designo.co</p>
                 </section>
-                <nav>
+                <section class="footer-social-icon">
                     <ul>
                         <li><a href="#"><img src="/img/icons/icon-facebook.svg" alt="Facebook"/></a></li>
                         <li><a href="#"><img src="/img/icons/icon-youtube.svg" alt="Youtube"/></a></li>
@@ -73,7 +71,7 @@
                         <li><a href="#"><img src="/img/icons/icon-pinterest.svg" alt="Pinterest"/></a></li>
                         <li><a href="#"><img src="/img/icons/icon-instagram.svg" alt="Instagram"/></a></li>
                     </ul>
-                </nav>
+                </section>
             </article>
         </footer>
     </body>
