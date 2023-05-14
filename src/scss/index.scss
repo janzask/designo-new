@@ -112,3 +112,26 @@ hr {
     opacity: 0.1;
     margin: 0;
 }
+
+.footer-navigation {
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+
+.footer-navigation ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-navigation li {
+    list-style: none;
+    padding-top: 2rem;
+}
+
+.footer-navigation a {
+    color: #ffffff;
+    font-size: 0.875rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+}
