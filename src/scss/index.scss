@@ -99,7 +99,7 @@ p {
 
 /*---FOOTER---*/
 
-footer {
+.footer {
     background-color: var(--colors-black);
 }
 
@@ -125,18 +125,10 @@ hr {
 }
 
 .footer-navigation {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding-bottom: 2.5rem;
-}
-
-.footer-navigation ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.footer-navigation li {
-    margin-top: 2rem;
 }
 
 .footer-navigation a {
@@ -145,6 +137,7 @@ hr {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.125rem;
+    padding-top: 2rem;
 }
 
 .footer-address,
