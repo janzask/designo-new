@@ -67,7 +67,7 @@ p {
 
 /*---HEADER---*/
 
-header {
+.header {
     padding: 2.125rem 1.5rem;
 }
 
@@ -76,6 +76,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .header-logo {
@@ -126,10 +132,10 @@ hr {
 .footer-navigation ul {
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 
 .footer-navigation li {
-    list-style: none;
     margin-top: 2rem;
 }
 
