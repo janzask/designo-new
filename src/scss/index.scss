@@ -118,7 +118,10 @@ p {
     line-height: 1.6667;
 }
 
+/*---BUTTONS---*/
+
 .button {
+    display: inline-block;
     color: var(--colors-dark-grey);
     background-color: var(--colors-white);
     font-size: 0.9375rem;
@@ -128,6 +131,7 @@ p {
     text-decoration: none;
     text-transform: uppercase;
     padding: 1.125rem 1.5rem;
+    margin-top: 1.5rem;
     border-radius: 0.5rem;
 }
 
