@@ -110,7 +110,7 @@ p {
     line-height: 1.125;
     letter-spacing: 0;
     margin: 0;
-    margin-bottom: 0.875rem;
+    margin-bottom: 1.625rem;
 }
 
 .intro-text p {
@@ -118,6 +118,23 @@ p {
     line-height: 1.6667;
 }
 
+.intro-image {
+    max-width: 17.5rem;
+    display: flex;
+    margin: 0 auto;
+}
+/*
+.intro-illustration {
+    margin: 0 auto;
+    padding-bottom: 25rem;
+    background-image: url(/img/mobile-front.webp);
+    background-size: 17.75rem;
+    background-repeat: no-repeat;
+    background-position:50% 100%;
+    aspect-ratio: 0.782;
+    margin: 0 auto;
+}
+*/
 /*---BUTTONS---*/
 
 .button {
