@@ -98,6 +98,9 @@ p {
 .intro {
     color: var(--colors-white);
     background-color: var(--colors-peach);
+    background-image: url(/img/oval.svg);
+    background-repeat: no-repeat;
+    background-position: 0 6.4rem;
 }
 
 .intro-text {
