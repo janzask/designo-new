@@ -48,6 +48,7 @@ h2,
     font-size: 2.5rem;
     line-height: 1.2;
     letter-spacing: 0.05em;
+    margin: 0;
 }
 
 h3,
@@ -128,6 +129,49 @@ p {
     box-shadow: var(--colors-black) 0 -1.5rem 4.5rem -1.5rem;
     border-top-right-radius: 2.3rem;
     border-top-left-radius: 2.3rem;
+}
+
+.projects {
+    margin-top: 7.5rem;
+    margin-bottom: 7.5rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.projects h2,
+.projects p {
+    color: var(--colors-white);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 1.75rem;
+}
+
+.projects p {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    letter-spacing: 0.3125em;
+}
+
+.web-projects,
+.app-projects,
+.graphic-projects {
+    padding: 5.625rem 3.5rem;
+    border-radius: 1rem;
+}
+
+.web-projects {
+    background-image: url(/img/image-web-design_1.webp);
+}
+
+.app-projects {
+    background-image: url(/img/image-app-design.webp);
+}
+
+.graphic-projects {
+    background-image: url(/img/image-graphic-design.webp);
 }
 
 /*
