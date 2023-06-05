@@ -212,6 +212,12 @@ p {
     border-radius: 0.5rem;
 }
 
+.button:hover,
+.button:active {
+    background-color: var(--colors-light-peach);
+    color: var(--colors-white);
+}
+
 /*---FOOTER---*/
 
 .footer {
