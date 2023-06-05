@@ -138,6 +138,10 @@ p {
     margin-left: 1.5rem;
 }
 
+.projects a {
+    text-decoration: none;
+}
+
 .projects h2,
 .projects p {
     color: var(--colors-white);
@@ -147,6 +151,7 @@ p {
 
 .projects h2 {
     font-size: 1.75rem;
+    margin-bottom: 0.75rem;
 }
 
 .projects p {
@@ -164,14 +169,17 @@ p {
 
 .web-projects {
     background-image: url(/img/image-web-design_1.webp);
+    margin-bottom: 1.5rem;
 }
 
 .app-projects {
     background-image: url(/img/image-app-design.webp);
+    margin-bottom: 1.5rem;
 }
 
 .graphic-projects {
     background-image: url(/img/image-graphic-design.webp);
+    padding: 5.625rem 2.25rem;
 }
 
 /*
