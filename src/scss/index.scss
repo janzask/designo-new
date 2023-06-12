@@ -160,11 +160,12 @@ p {
     letter-spacing: 0.3125em;
 }
 
-.web-projects,
-.app-projects,
-.graphic-projects {
+.project {
+    display: block;
     padding: 5.625rem 3.5rem;
     border-radius: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .web-projects {
