@@ -161,11 +161,15 @@ p {
 }
 
 .project {
-    display: block;
-    padding: 5.625rem 3.5rem;
-    border-radius: 1rem;
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 15.625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1.5rem;
 }
 
 .web-projects {
@@ -180,8 +184,6 @@ p {
 
 .graphic-projects {
     background-image: url(/img/image-graphic-design.webp);
-    padding-left: 2.25rem;
-    padding-right: 2.25rem;
 }
 
 /*
