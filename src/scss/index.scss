@@ -131,36 +131,36 @@ p {
     border-top-left-radius: 2.3rem;
 }
 
-.projects {
+.services {
     margin-top: 7.5rem;
     margin-bottom: 7.5rem;
     margin-right: 1.5rem;
     margin-left: 1.5rem;
 }
 
-.projects a {
+.services a {
     text-decoration: none;
 }
 
-.projects h2,
-.projects p {
+.services h2,
+.services p {
     color: var(--colors-white);
     text-transform: uppercase;
     text-align: center;
 }
 
-.projects h2 {
+.services h2 {
     font-size: 1.75rem;
     margin-bottom: 0.75rem;
 }
 
-.projects p {
+.services p {
     font-size: 0.9375rem;
     font-weight: 500;
     letter-spacing: 0.3125em;
 }
 
-.project {
+.services-card {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #9c9c9c;
@@ -173,24 +173,24 @@ p {
     padding: 1.5rem;
 }
 
-.projects-link {
+.services-link {
     background-image: url(/img/icons/icon-right-arrow.svg);
     background-repeat: no-repeat;
     background-position: 100%;
     padding-right: 1.5rem;
 }
 
-.projects-web {
+.services-web {
     background-image: url(/img/image-web-design_1.webp);
     margin-bottom: 1.5rem;
 }
 
-.projects-app {
+.services-app {
     background-image: url(/img/image-app-design.webp);
     margin-bottom: 1.5rem;
 }
 
-.projects-graphic {
+.services-graphic {
     background-image: url(/img/image-graphic-design.webp);
 }
 
