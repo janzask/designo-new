@@ -204,8 +204,8 @@ p {
     line-height: 1.625rem;
     letter-spacing: 0.3125rem;
     text-transform: uppercase;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 .properties p {
@@ -222,6 +222,11 @@ p {
 
 .properties-circle-three {
     background-image: url(img/oval-home-mobile-3.svg);
+}
+
+.circle {
+    display: block;
+    margin: 0 auto;
 }
 /*
 .intro-illustration {
