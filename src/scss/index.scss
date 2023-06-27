@@ -199,7 +199,7 @@ p {
     text-align: center;
 }
 
-.properties h2 {
+.properties-heading {
     font-size: 1.25rem;
     line-height: 1.625rem;
     letter-spacing: 0.3125rem;
@@ -208,8 +208,8 @@ p {
     margin-bottom: 2rem;
 }
 
-.properties p {
-    padding-bottom: 5rem;
+.properties-property {
+    margin-bottom: 5rem;
 }
 
 .properties-circle-one {
@@ -225,6 +225,8 @@ p {
 }
 
 .circle {
+    max-width: 100%;
+    height: auto;
     display: block;
     margin: 0 auto;
 }
