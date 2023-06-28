@@ -138,28 +138,6 @@ p {
     margin-left: 1.5rem;
 }
 
-.services a {
-    text-decoration: none;
-}
-
-.services h2,
-.services p {
-    color: var(--colors-white);
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.services h2 {
-    font-size: 1.75rem;
-    margin-bottom: 0.75rem;
-}
-
-.services p {
-    font-size: 0.9375rem;
-    font-weight: 500;
-    letter-spacing: 0.3125em;
-}
-
 .services-card {
     background-size: cover;
     background-repeat: no-repeat;
@@ -171,13 +149,9 @@ p {
     align-items: center;
     border-radius: 1rem;
     padding: 1.5rem;
-}
-
-.services-link {
-    background-image: url(/img/icons/icon-right-arrow.svg);
-    background-repeat: no-repeat;
-    background-position: 100%;
-    padding-right: 1.5rem;
+    text-decoration: none;
+    color: var(--colors-white);
+    text-transform: uppercase;
 }
 
 .services-web {
@@ -193,6 +167,22 @@ p {
 .services-graphic {
     background-image: url(/img/image-graphic-design.webp);
 }
+
+.services-heading {
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.services-link {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    letter-spacing: 0.3125em;
+    background-image: url(/img/icons/icon-right-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding-right: 1.5rem;
+}
+
 
 .properties {
     margin: 7.5rem 1.5rem;
