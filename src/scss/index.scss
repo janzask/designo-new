@@ -229,6 +229,43 @@ p {
     color: var(--colors-white);
 }
 
+.business {
+    background-color: var(--colors-peach);
+    background-image: url(/img/bg-pattern-call-to-action.svg);
+    background-repeat: no-repeat;
+    background-position: -15rem -6.4rem;
+    text-align: center;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    border-radius: 1rem;
+    position: relative;
+    top: 12rem;
+}
+
+.business-section {
+    padding: 4rem 1.5rem;
+}
+
+.business-heading,
+.business-paragraph {
+    color: var(--colors-white);
+}
+
+.business-heading {
+    font-size: 2rem;
+    line-height: 1.125;
+    letter-spacing: 0;
+    text-transform: none;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.business-paragraph {
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
+    margin-bottom: 0.5rem;
+}
+
 /*---FOOTER---*/
 
 .footer {
@@ -236,14 +273,14 @@ p {
 }
 
 .footer-article {
-    padding: 15.75rem 1.5rem 4rem;
+    padding: 15.875rem 1.5rem 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .footer-logo {
-    width: 100%;
+    max-width: 100%;
     padding-left: 3.875rem;
     padding-right: 3.875rem;
     padding-bottom: 2rem;
