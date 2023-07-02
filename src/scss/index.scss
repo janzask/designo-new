@@ -221,13 +221,17 @@ p {
     background-color: var(--colors-white);
     font-size: 0.9375rem;
     font-weight: 500;
-    line-height: 1.375;
+    line-height: normal;
     letter-spacing: 0.0625rem;
     text-decoration: none;
     text-transform: uppercase;
     padding: 1.125rem 1.5rem;
     margin-top: 1.5rem;
     border-radius: 0.5rem;
+}
+
+.business-button {
+    padding: 1.125rem;
 }
 
 .button:hover,
