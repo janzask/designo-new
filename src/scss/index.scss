@@ -308,9 +308,10 @@ hr {
     padding-bottom: 2.5rem;
 }
 
-.footer-navigation a {
+.footer-navigation-link {
     color: var(--colors-white);
     font-size: 0.875rem;
+    line-height: 1;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.125rem;
@@ -327,6 +328,7 @@ hr {
 
 .footer-designo-office {
     font-weight: 700;
+    letter-spacing: 0.03rem;
 }
 
 .footer-social-icon ul {
