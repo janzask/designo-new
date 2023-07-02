@@ -184,7 +184,10 @@ p {
 }
 
 .properties {
-    margin: 7.5rem 1.5rem;
+    margin-top: 7.5rem;
+    margin-bottom: -4.6rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
     text-align: center;
 }
 
@@ -199,6 +202,10 @@ p {
 
 .properties-property {
     margin-bottom: 5rem;
+}
+
+.properties-property:last-child {
+    margin-bottom: 0;
 }
 
 .properties-illustration {
@@ -237,13 +244,10 @@ p {
     text-align: center;
     margin-right: 1.5rem;
     margin-left: 1.5rem;
+    padding: 4rem 1.5rem;
     border-radius: 1rem;
     position: relative;
     top: 12rem;
-}
-
-.business-section {
-    padding: 4rem 1.5rem;
 }
 
 .business-heading,
