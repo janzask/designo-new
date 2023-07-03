@@ -185,7 +185,7 @@ p {
 
 .properties {
     margin-top: 7.5rem;
-    margin-bottom: -4.6rem;
+    margin-bottom: 7.5rem;
     margin-right: 1.5rem;
     margin-left: 1.5rem;
     text-align: center;
@@ -241,6 +241,10 @@ p {
 }
 
 .business {
+    min-height: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: var(--colors-peach);
     background-image: url(/img/bg-pattern-call-to-action.svg);
     background-repeat: no-repeat;
@@ -248,10 +252,10 @@ p {
     text-align: center;
     margin-right: 1.5rem;
     margin-left: 1.5rem;
-    padding: 4rem 1.5rem;
+    padding: 1.5rem;
     border-radius: 1rem;
     position: relative;
-    top: 12rem;
+    margin-bottom: -12rem;
 }
 
 .business-heading,
