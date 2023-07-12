@@ -30,18 +30,29 @@
             </nav>
         </header>
         <main>
-            {% block intro %}
-            <h1>HAHHA</h1>
+            {% block introservices %}
+                <article class="intro intro-illustration">
+                    <section class="intro-text">
+                        <h2 class="h2">Award-winning custom designs and digital branding solutions</h2>
+                        <p>
+                            With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging
+                            brand experiences. Find out more about our services.
+                        </p>
+                        <a class="button" href="./about">Learn more</a>
+                    </section>
+                    <div>
+                        <img class="intro-image" src="/img/mobile-front.webp" alt="">
+                    </div>
+                </article>
             {% endblock %}
             {% block content %}{% endblock %}
             {% block calltoaction %}
                 <article class="business">
-                        <h3 class="business-heading">Let’s talk about your project</h3>
-                        <p class="business-paragraph">
-                            Ready to take it to the next level? Contact us today and find out how our expertise can help your business
-                            grow.
-                        </p>
-                        <a class="business-button button" href="">Get in touch</a>
+                    <h3 class="business-heading">Let’s talk about your project</h3>
+                    <p class="business-paragraph">
+                        Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.
+                    </p>
+                    <a class="business-button button" href="">Get in touch</a>
                 </article>
             {% endblock %}
         </main>
