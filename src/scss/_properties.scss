@@ -1,0 +1,29 @@
+// PROPERTIES
+
+.properties {
+    margin-top: 7.5rem;
+    margin-bottom: 7.5rem;
+    text-align: center;
+}
+
+.properties-heading {
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.properties-property {
+    margin-bottom: 5rem;
+}
+
+.properties-property:last-child {
+    margin-bottom: 0;
+}
+
+.properties-illustration {
+    display: block;
+    margin: 0 auto;
+}

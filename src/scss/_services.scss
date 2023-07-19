@@ -1,0 +1,61 @@
+// SERVICES
+
+.all {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.services {
+    margin-top: 7.5rem;
+    margin-bottom: 7.5rem;
+}
+
+.services-card {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #9c9c9c;
+    min-height: 15.625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: var(--colors-white);
+    text-transform: uppercase;
+}
+
+.web-intro {
+    background-color: var(--colors-peach);
+    background-repeat: no-repeat;
+}
+
+.services-web {
+    background-image: url(/img/image-web-design_1.webp);
+    margin-bottom: 1.5rem;
+}
+
+.services-app {
+    background-image: url(/img/image-app-design.webp);
+    margin-bottom: 1.5rem;
+}
+
+.services-graphic {
+    background-image: url(/img/image-graphic-design.webp);
+}
+
+.services-heading {
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.services-link {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    letter-spacing: 0.3333em;
+    background-image: url(/img/icons/icon-right-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding-right: 1.5rem;
+}

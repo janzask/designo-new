@@ -1,0 +1,27 @@
+// HEADER
+
+.header {
+    padding: 2.125rem 1.5rem;
+}
+
+.header-brand {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.header-logo {
+    width: 100%;
+    padding-right: 6.25rem;
+}
+
+.header-navigation {
+    display: none;
+}

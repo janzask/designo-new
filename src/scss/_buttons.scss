@@ -1,0 +1,23 @@
+// BUTTONS
+
+.button {
+    min-width: 9.5rem;
+    display: inline-block;
+    color: var(--colors-dark-grey);
+    background-color: var(--colors-white);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.06667em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.button:hover,
+.button:active {
+    background-color: var(--colors-light-peach);
+    color: var(--colors-white);
+}

@@ -1,0 +1,36 @@
+// Introductions
+
+.intro {
+    color: var(--colors-white);
+    background-color: var(--colors-peach);
+    background-image: url(/img/oval.svg);
+    background-repeat: no-repeat;
+    background-position: 0 6.4rem;
+}
+
+.intro-text {
+    text-align: center;
+    padding: 5rem 1.5rem;
+}
+
+.h2 {
+    font-size: 2rem;
+    line-height: 1.125;
+    letter-spacing: 0;
+    margin: 0;
+    margin-bottom: 1.625rem;
+}
+
+.intro-text p {
+    font-size: 0.9375rem;
+    line-height: 1.6667;
+}
+
+.intro-image {
+    max-width: 17.5rem;
+    display: flex;
+    margin: 0 auto;
+    box-shadow: rgb(93 2 2 / 0.5) 1.25rem -2.5rem 5rem;
+    border-top-right-radius: 2.3rem;
+    border-top-left-radius: 2.3rem;
+}
