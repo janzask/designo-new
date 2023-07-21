@@ -10,8 +10,8 @@
         </p>
     </article>
 {% endblock %}
-
 {% block content %}
+<div class="all">
     <article>
         <section>
             <img src="" alt="">
@@ -45,13 +45,14 @@
                                 </section>
                             </article>
                             <article>
-                                <a href="./app-design">
-                                    <h3>App Design</h3>
-                                    <p>View Projects</p>
+                                <a class="services-app services-card" href="./app-design">
+                                    <h2 class="services-heading">App Design</h2>
+                                    <p class="services-link">View Projects</p>
                                 </a>
-                                <a href="./graphic-design">
-                                    <h3>Graphic Design</h3>
-                                    <p>View Projects</p>
+                                <a class="services-graphic services-card" href="./graphic-design">
+                                    <h2 class="services-heading">Graphic Design</h2>
+                                    <p class="services-link">View Projects</p>
                                 </a>
                             </article>
+                            </div>
                         {% endblock %}
