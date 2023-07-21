@@ -9,13 +9,19 @@
 }
 
 .intro-design {
+    min-height: 20rem;
     background-image: url(/img/bg-pattern-intro-web.svg);
-    background-color: var(--colors-peach);
-    background-repeat: no-repeat;
-    width: 100%;
+    background-position: -31.4rem -18.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    text-align: center;
 }
 
 .intro-text {
+    color: var(--colors-white);
     text-align: center;
     padding: 5rem 1.5rem;
 }

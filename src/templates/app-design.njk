@@ -2,49 +2,51 @@
 
 {% block title %}App Design - {{ super() }}{% endblock %}
 
+{% block introDesign %}
+    <article>
+        <h2 class="intro-heading">App Design</h2>
+        <p class="intro-descriptions">
+            Our mobile designs bring intuitive digital solutions to your customers right at their fingertips.
+        </p>
+    </article>
+{% endblock %}
+
 {% block content %}
-        <article class="intro-design">
-            <h2 class="intro-design-heading">App Design</h2>
-            <p class="intro-design-text">
-                Our mobile designs bring intuitive digital solutions
-                 to your customers right at their fingertips.
-            </p>
-        </article>
-        <article>
-            <section>
-                <img src="" alt="">
+    <article>
+        <section>
+            <img src="" alt="">
                 <h3>Airfilter</h3>
                 <p>Solving the problem of poor indoor air quality by filtering the air</p>
             </section>
             <section>
                 <img src="" alt="">
-                <h3>Eyecam</h3>
-                <p>Product that lets you edit your favorite photos and videos at any time</p>
-            </section>
-            <section>
-                <img src="" alt="">
-                <h3>Faceit</h3>
-                <p>Get to meet your favorite internet superstar with the faceit app</p>
-            </section>
-            <section>
-                <img src="" alt="">
-                <h3>Todo</h3>
-                <p>A todo app that features cloud sync with light and dark mode</p>
-            </section>
-            <section>
-                <img src="" alt="">
-                <h3>Loopstudios</h3>
-                <p>A VR experience app made for Loopstudios</p>
-            </section>
-        </article>
-        <article>
-            <a href="./web-design">
-                <h3>Web design</h3>
-                <p>View Projects</p>
-            </a>
-            <a href="./graphic-design">
-                <h3>Graphic design</h3>
-                <p>View Projects</p>
-            </a>
-        </article> 
-{% endblock %}
+                    <h3>Eyecam</h3>
+                    <p>Product that lets you edit your favorite photos and videos at any time</p>
+                </section>
+                <section>
+                    <img src="" alt="">
+                        <h3>Faceit</h3>
+                        <p>Get to meet your favorite internet superstar with the faceit app</p>
+                    </section>
+                    <section>
+                        <img src="" alt="">
+                            <h3>Todo</h3>
+                            <p>A todo app that features cloud sync with light and dark mode</p>
+                        </section>
+                        <section>
+                            <img src="" alt="">
+                                <h3>Loopstudios</h3>
+                                <p>A VR experience app made for Loopstudios</p>
+                            </section>
+                        </article>
+                        <article>
+                            <a href="./web-design">
+                                <h3>Web design</h3>
+                                <p>View Projects</p>
+                            </a>
+                            <a href="./graphic-design">
+                                <h3>Graphic design</h3>
+                                <p>View Projects</p>
+                            </a>
+                        </article>
+                    {% endblock %}
