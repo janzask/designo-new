@@ -1,0 +1,29 @@
+// Design
+
+.design-project {
+    margin-top: 6rem; // vymenit je to len dočasne 
+    min-height: 29.875rem;
+    border-radius: 1rem;
+    background-color: var(--colors-very-light-peach);
+    overflow: hidden;
+}
+
+.design-card-image {
+    width: 100%;
+    min-height: 20rem;
+}
+
+.design-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.design-card-heading {
+    color: var(--colors-peach);
+    margin: 0;
+    margin-bottom: 1rem;
+}
