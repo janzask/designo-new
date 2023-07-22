@@ -1,7 +1,6 @@
 {% extends '_base.njk' %}
-
-{% block title %}Web design - {{ super() }}{% endblock %}
-
+{% block title %}Web design - {{ super() }}
+{% endblock %}
 {% block introDesign %}
     <article>
         <h2 class="intro-heading">Web Design</h2>
@@ -11,48 +10,72 @@
     </article>
 {% endblock %}
 {% block content %}
-<div class="all">
-    <article>
-        <section>
-            <img src="" alt="">
-                <h3>Express</h3>
-                <p>A multi-carrier shipping website for ecommerce businesses</p>
-            </section>
-            <section>
-                <img src="" alt="">
-                    <h3>Transfer</h3>
-                    <p>Site for low-cost money transfers and sending money within seconds</p>
+    <div class="all">
+        <article>
+            <section class="design-project">
+                <div>
+                    <img class="design-card-image" src="/img/design/image-express.webp" alt="">
+                </div>
+                    <div class="design-card-text">
+                        <h3 class="design-card-heading">Express</h3>
+                        <p>A multi-carrier shipping website for ecommerce businesses</p>
+                    </div>
                 </section>
-                <section>
-                    <img src="" alt="">
-                        <h3>Photon</h3>
-                        <p>A state-of-the-art music player with high-resolution audio and DSP effects</p>
+                <section class="design-project">
+                    <div>
+                        <img class="design-card-image" src="/img/design/image-transfer.webp" alt="">
+                    </div>
+                        <div class="design-card-text">
+                            <h3 class="design-card-heading">Transfer</h3>
+                            <p>Site for low-cost money transfers and sending money within seconds</p>
+                        </div>
                     </section>
-                    <section>
-                        <img src="" alt="">
-                            <h3>Builder</h3>
-                            <p>Connects users with local contractors based on their location</p>
+                    <section class="design-project">
+                        <div>
+                            <img class="design-card-image" src="/img/design/image-photon.webp" alt="">
+                        </div>
+                            <div class="design-card-text">
+                                <h3 class="design-card-heading">Photon</h3>
+                                <p>A state-of-the-art music player with high-resolution audio and DSP effects</p>
+                            </div>
                         </section>
-                        <section>
-                            <img src="" alt="">
-                                <h3>Blogr</h3>
-                                <p>Blogr is a platform for creating an online blog or publication</p>
+                        <section class="design-project">
+                            <div>
+                                <img class="design-card-image" src="/img/design/image-builder.webp" alt="">
+                            </div>
+                                <div class="design-card-text">
+                                    <h3 class="design-card-heading">Builder</h3>
+                                    <p>Connects users with local contractors based on their location</p>
+                                </div>
                             </section>
-                            <section>
-                                <img src="" alt="">
-                                    <h3>Camp</h3>
-                                    <p>Get expert training in coding, data, design, and digital marketing</p>
+                            <section class="design-project">
+                                <div>
+                                    <img class="design-card-image" src="/img/design/image-blogr.webp" alt="">
+                                </div>
+                                    <div class="design-card-text">
+                                        <h3 class="design-card-heading">Blogr</h3>
+                                        <p>Blogr is a platform for creating an online blog or publication</p>
+                                    </div>
                                 </section>
-                            </article>
-                            <article>
-                                <a class="services-app services-card" href="./app-design">
-                                    <h2 class="services-heading">App Design</h2>
-                                    <p class="services-link">View Projects</p>
-                                </a>
-                                <a class="services-graphic services-card" href="./graphic-design">
-                                    <h2 class="services-heading">Graphic Design</h2>
-                                    <p class="services-link">View Projects</p>
-                                </a>
-                            </article>
+                                <section class="design-project">
+                                    <div>
+                                        <img class="design-card-image" src="/img/design/image-camp.webp" alt="">
+                                    </div>
+                                        <div class="design-card-text">
+                                            <h3 class="design-card-heading">Camp</h3>
+                                            <p>Get expert training in coding, data, design, and digital marketing</p>
+                                        </div>
+                                    </section>
+                                </article>
+                                <article>
+                                    <a class="services-app services-card" href="./app-design">
+                                        <h2 class="services-heading">App Design</h2>
+                                        <p class="services-link">View Projects</p>
+                                    </a>
+                                    <a class="services-graphic services-card" href="./graphic-design">
+                                        <h2 class="services-heading">Graphic Design</h2>
+                                        <p class="services-link">View Projects</p>
+                                    </a>
+                                </article>
                             </div>
                         {% endblock %}
