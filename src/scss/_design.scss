@@ -1,11 +1,20 @@
 // Design
 
+.design {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
 .design-project {
-    margin-top: 6rem; // vymenit je to len dočasne 
+    margin-bottom: 2.5rem;
     min-height: 29.875rem;
     border-radius: 1rem;
     background-color: var(--colors-very-light-peach);
     overflow: hidden;
+}
+
+.design-project:last-child {
+    margin-bottom: 6rem;
 }
 
 .design-card-image {
