@@ -5,6 +5,7 @@
 @import "properties";
 @import "buttons";
 @import "business";
+@import "design";
 
 *,
 *:before,
@@ -17,6 +18,7 @@
     --colors-black: #1d1c1e;
     --colors-white: #ffffff;
     --colors-light-peach: #ffad9b;
+    --colors-very-light-peach: #FDF3F0;
     --colors-dark-grey: #333136;
     --colors-light-grey: #f1f3f5;
 }
