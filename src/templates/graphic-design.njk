@@ -1,17 +1,13 @@
-{% extends '_base.njk' %}
+{% extends '_design.njk' %}
 
 {% block title %}Graphic design - {{ super() }}{% endblock %}
 
-{% block introDesign %}
-    <article>
-        <h2 class="intro-heading">Graphic Design</h2>
-        <p class="intro-descriptions">
-            We deliver eye-catching branding materials that are tailored to meet your business objectives.
-        </p>
-    </article>
-{% endblock %}
+{% block introDesignHeading %}Graphic Design{% endblock %}
+
+{% block introDesignText %}We deliver eye-catching branding materials that are tailored to meet your business objectives.{% endblock %}
 
 {% block content %}
+    {{ super() }}
     <article>
         <section>
             <img src="" alt="">
