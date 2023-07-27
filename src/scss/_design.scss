@@ -7,7 +7,6 @@
 
 .design-project {
     margin-bottom: 2.5rem;
-    min-height: 29.875rem;
     border-radius: 1rem;
     background-color: var(--colors-very-light-peach);
     overflow: hidden;
@@ -18,13 +17,14 @@
 }
 
 .design-card-image {
-    display: block; //div bol vacsi ako img cca o 2px toto to vyriesilo 
-    width: 100%;
+    display: block;
+    max-width: 100%;
     min-height: 20rem;
+    height: auto;
 }
 
 .design-card-text {
-    padding: 2rem;
+    padding: 2rem 1.875rem;
     text-align: center;
 }
 
