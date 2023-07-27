@@ -8,31 +8,42 @@
 
 {% block content %}
     {{ super() }}
-    <article>
-        <section>
-            <img src="" alt="">
-                <h3>Tim brown</h3>
-                <p>A book cover designed for Tim Brown’s new release, ‘Change’</p>
-            </section>
-            <section>
-                <img src="" alt="">
-                    <h3>Boxed water</h3>
-                    <p>A simple packaging concept made for Boxed Water</p>
+    <div class="all design">
+        <article>
+            <section class="design-project">
+                <div>
+                    <img class="design-card-image" src="" alt=""></div>
+                    <div class="design-card-text">
+                        <h3>Tim brown</h3>
+                        <p>A book cover designed for Tim Brown’s new release, ‘Change’</p>
+                    </div>
                 </section>
-                <section>
-                    <img src="" alt="">
-                        <h3>Science!</h3>
-                        <p>A poster made in collaboration with the Federal Art Project</p>
+                <section class="design-project">
+                    <div>
+                        <img class="design-card-image" src="" alt=""></div>
+                        <div class="design-card-text">
+                            <h3>Boxed water</h3>
+                            <p>A simple packaging concept made for Boxed Water</p>
+                        </div>
                     </section>
-                </article>
-                <article>
-                    <a href="./app-design">
-                        <h3>App design</h3>
-                        <p>View Projects</p>
-                    </a>
-                    <a href="./web-design">
-                        <h3>Web design</h3>
-                        <p>View Projects</p>
-                    </a>
-                </article>
+                    <section class="design-project">
+                        <div>
+                            <img class="design-card-image" src="" alt=""></div>
+                            <div class="design-card-text">
+                                <h3>Science!</h3>
+                                <p>A poster made in collaboration with the Federal Art Project</p>
+                            </div>
+                        </section>
+                    </article>
+                    <article>
+                        <a class="services-app services-card" href="./app-design">
+                            <h2 class="services-heading">App Design</h2>
+                            <p class="services-link">View Projects</p>
+                        </a>
+                        <a class="services-graphic services-card" href="./web-design">
+                            <h2 class="services-heading">Web Design</h2>
+                            <p class="services-link">View Projects</p>
+                        </a>
+                    </article>
+                </div>
             {% endblock %}
