@@ -7,42 +7,54 @@
 {% block introDesignText %}Our mobile designs bring intuitive digital solutions to your customers right at their fingertips.{% endblock %}
 
 {% block content %}
-{{ super() }}
-    <article>
-        <section>
-            <img src="" alt="">
-                <h3>Airfilter</h3>
-                <p>Solving the problem of poor indoor air quality by filtering the air</p>
-            </section>
-            <section>
-                <img src="" alt="">
-                    <h3>Eyecam</h3>
-                    <p>Product that lets you edit your favorite photos and videos at any time</p>
-                </section>
-                <section>
-                    <img src="" alt="">
-                        <h3>Faceit</h3>
-                        <p>Get to meet your favorite internet superstar with the faceit app</p>
+    {{ super() }}
+    <div class="all design">
+        <article>
+            <section class="design-project">
+                <div>
+                    <img class="design-card-image" src="/img/design/image-airfilter.webp" alt=""></div>
+                    <div class="design-card-text">
+                        <h3 class="design-card-heading">Airfilter</h3>
+                        <p>Solving the problem of poor indoor air quality by filtering the air</p>
                     </section>
-                    <section>
-                        <img src="" alt="">
-                            <h3>Todo</h3>
-                            <p>A todo app that features cloud sync with light and dark mode</p>
-                        </section>
-                        <section>
-                            <img src="" alt="">
-                                <h3>Loopstudios</h3>
-                                <p>A VR experience app made for Loopstudios</p>
+                    <section class="design-project">
+                        <div>
+                            <img class="design-card-image" src="/img/design/image-eyecam.webp" alt=""></div>
+                            <div class="design-card-text">
+                                <h3 class="design-card-heading">Eyecam</h3>
+                                <p>Product that lets you edit your favorite photos and videos at any time</p>
                             </section>
-                        </article>
-                        <article>
-                            <a href="./web-design">
-                                <h3>Web design</h3>
-                                <p>View Projects</p>
-                            </a>
-                            <a href="./graphic-design">
-                                <h3>Graphic design</h3>
-                                <p>View Projects</p>
-                            </a>
-                        </article>
-                    {% endblock %}
+                            <section class="design-project">
+                                <div>
+                                    <img class="design-card-image" src="/img/design/image-faceit.webp" alt=""></div>
+                                    <div class="design-card-text">
+                                        <h3 class="design-card-heading">Faceit</h3>
+                                        <p>Get to meet your favorite internet superstar with the faceit app</p>
+                                    </section>
+                                    <section class="design-project">
+                                        <div>
+                                            <img class="design-card-image" src="/img/design/image-todo.webp" alt=""></div>
+                                            <div class="design-card-text">
+                                                <h3 class="design-card-heading">Todo</h3>
+                                                <p>A todo app that features cloud sync with light and dark mode</p>
+                                            </section>
+                                            <section class="design-project">
+                                                <div>
+                                                    <img class="design-card-image" src="/img/design/image-loopstudios.webp" alt=""></div>
+                                                    <div class="design-card-text">
+                                                        <h3 class="design-card-heading">Loopstudios</h3>
+                                                        <p>A VR experience app made for Loopstudios</p>
+                                                    </section>
+                                                </article>
+                                                <article>
+                                                    <a class="services-web services-card" href="./web-design">
+                                                        <h2 class="services-heading">Web Design</h2>
+                                                        <p class="services-link">View Projects</p>
+                                                    </a>
+                                                    <a class="services-graphic services-card" href="./graphic-design">
+                                                        <h2 class="services-heading">Graphic Design</h2>
+                                                        <p class="services-link">View Projects</p>
+                                                    </a>
+                                                </article>
+                                            </div>
+                                        {% endblock %}
