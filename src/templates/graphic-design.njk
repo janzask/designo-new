@@ -9,44 +9,25 @@
 {% block content %}
     {{ super() }}
     <div class="all design">
-        <article>
+        {% for project in graphicProjects %}
             <section class="design-project">
                 <div>
-                    <img class="design-card-image" src="/img/design/image-change.webp" alt="">
-                    </div>
+                    <img class="design-card-image" src="{{ project.image }}" alt=""></div>
                     <div class="design-card-text">
-                        <h3 class="design-card-heading">Tim brown</h3>
-                        <p>A book cover designed for Tim Brown’s new release, ‘Change’</p>
+                        <h3 class="design-card-heading">{{ project.title }}</h3>
+                        <p>{{ project.descriptions }}</p>
                     </div>
                 </section>
-                <section class="design-project">
-                    <div>
-                        <img class="design-card-image" src="/img/design/image-boxed-water.webp" alt="">
-                        </div>
-                        <div class="design-card-text">
-                            <h3 class="design-card-heading">Boxed water</h3>
-                            <p>A simple packaging concept made for Boxed Water</p>
-                        </div>
-                    </section>
-                    <section class="design-project">
-                        <div>
-                            <img class="design-card-image" src="/img/design/image-science.webp" alt="">
-                            </div>
-                            <div class="design-card-text">
-                                <h3 class="design-card-heading">Science!</h3>
-                                <p>A poster made in collaboration with the Federal Art Project</p>
-                            </div>
-                        </section>
-                    </article>
-                    <article>
-                        <a class="services-app services-card" href="./app-design">
-                            <h2 class="services-heading">App Design</h2>
-                            <p class="services-link">View Projects</p>
-                        </a>
-                        <a class="services-web services-card" href="./web-design">
-                            <h2 class="services-heading">Web Design</h2>
-                            <p class="services-link">View Projects</p>
-                        </a>
-                    </article>
-                </div>
-            {% endblock %}
+            {% endfor %}
+            <article>
+                <a class="services-app services-card" href="./app-design">
+                    <h2 class="services-heading">App Design</h2>
+                    <p class="services-link">View Projects</p>
+                </a>
+                <a class="services-web services-card" href="./web-design">
+                    <h2 class="services-heading">Web Design</h2>
+                    <p class="services-link">View Projects</p>
+                </a>
+            </article>
+        </div>
+    {% endblock %}

@@ -9,48 +9,16 @@
 {% block content %}
     {{ super() }}
     <div class="all design">
-        <article>
-            <section class="design-project">
-                <div>
-                    <img class="design-card-image" src="/img/design/image-airfilter.webp" alt=""></div>
-                    <div class="design-card-text">
-                        <h3 class="design-card-heading">Airfilter</h3>
-                        <p>Solving the problem of poor indoor air quality by filtering the air</p>
-                    </div>
-                </section>
+        {% for project in appProjects %}
                 <section class="design-project">
-                    <div>
-                        <img class="design-card-image" src="/img/design/image-eyecam.webp" alt=""></div>
-                        <div class="design-card-text">
-                            <h3 class="design-card-heading">Eyecam</h3>
-                            <p>Product that lets you edit your favorite photos and videos at any time</p>
-                        </div>
-                    </section>
-                    <section class="design-project">
-                        <div>
-                            <img class="design-card-image" src="/img/design/image-faceit.webp" alt=""></div>
-                            <div class="design-card-text">
-                                <h3 class="design-card-heading">Faceit</h3>
-                                <p>Get to meet your favorite internet superstar with the faceit app</p>
-                            </div>
-                        </section>
-                        <section class="design-project">
-                            <div>
-                                <img class="design-card-image" src="/img/design/image-todo.webp" alt=""></div>
-                                <div class="design-card-text">
-                                    <h3 class="design-card-heading">Todo</h3>
-                                    <p>A todo app that features cloud sync with light and dark mode</p>
-                                </div>
-                            </section>
-                            <section class="design-project">
-                                <div>
-                                    <img class="design-card-image" src="/img/design/image-loopstudios.webp" alt=""></div>
-                                    <div class="design-card-text">
-                                        <h3 class="design-card-heading">Loopstudios</h3>
-                                        <p>A VR experience app made for Loopstudios</p>
-                                    </div>
-                                </section>
-                            </article>
+                <div>
+                    <img class="design-card-image" src="{{ project.image }}" alt=""></div>
+                    <div class="design-card-text">
+                        <h3 class="design-card-heading">{{ project.title }}</h3>
+                        <p>{{ project.descriptions }}</p>
+                    </div>
+                </section>      
+            {% endfor %}
                             <article>
                                 <a class="services-web services-card" href="./web-design">
                                     <h2 class="services-heading">Web Design</h2>
