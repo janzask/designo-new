@@ -26,6 +26,10 @@
     text-transform: uppercase;
 }
 
+.services-card:first-child {
+    margin-top: 6rem;
+}
+
 .services-web {
     background-image: url(/img/image-web-design_1.webp);
     margin-bottom: 1.5rem;
