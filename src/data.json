@@ -1,33 +1,79 @@
 {
   "bootstrapVersion": "5.2.3",
-  "sampleColors": [
+  "appProjects": [
     {
-      "name": "red",
-      "value": "#f00"
+      "title": "Airfilter",
+      "descriptions": "Solving the problem of poor indoor air quality by filtering the air",
+      "image": "/img/design/image-airfilter.webp"
     },
     {
-      "name": "green",
-      "value": "#0f0"
+      "title": "Eyecam",
+      "descriptions": "Product that lets you edit your favorite photos and videos at any time",
+      "image": "/img/design/image-eyecam.webp"
     },
     {
-      "name": "blue",
-      "value": "#00f"
+      "title": "Faceit",
+      "descriptions": "Get to meet your favorite internet superstar with the faceit app",
+      "image": "/img/design/image-faceit.webp"
     },
     {
-      "name": "cyan",
-      "value": "#0ff"
+      "title": "Todo",
+      "descriptions": "A todo app that features cloud sync with light and dark mode",
+      "image": "/img/design/image-todo.webp"
+    }, 
+    {
+      "title": "Loopstudios",
+      "descriptions": "A VR experience app made for Loopstudios",
+      "image": "/img/design/image-loopstudios.webp"
+    }
+  ],
+  "graphicProjects": [
+    {
+      "title": "Tim brown",
+      "descriptions": "A book cover designed for Tim Brown’s new release, ‘Change’",
+      "image": "/img/design/image-change.webp"
     },
     {
-      "name": "magenta",
-      "value": "#f0f"
+      "title": "Boxed water",
+      "descriptions": "A simple packaging concept made for Boxed Water",
+      "image": "/img/design/image-boxed-water.webp"
     },
     {
-      "name": "yellow",
-      "value": "#ff0"
+      "title": "Science!",
+      "descriptions": "A poster made in collaboration with the Federal Art Project",
+      "image": "/img/design/image-science.webp"
+    }
+  ],
+  "webProjects": [
+    {
+      "title": "Express",
+      "descriptions": "A multi-carrier shipping website for ecommerce businesses",
+      "image": "/img/design/image-express.webp"
     },
     {
-      "name": "black",
-      "value": "#000"
+      "title": "Transfer",
+      "descriptions": "Site for low-cost money transfers and sending money within seconds",
+      "image": "/img/design/image-transfer.webp"
+    },
+    {
+      "title": "Photon",
+      "descriptions": "A state-of-the-art music player with high-resolution audio and DSP effects",
+      "image": "/img/design/image-photon.webp"
+    },
+    {
+      "title": "Builder",
+      "descriptions": "Connects users with local contractors based on their location",
+      "image": "/img/design/image-builder.webp"
+    },
+    {
+      "title": "Blogr",
+      "descriptions": "Blogr is a platform for creating an online blog or publication",
+      "image": "/img/design/image-blogr.webp"
+    },
+    {
+      "title": "Camp",
+      "descriptions": "Get expert training in coding, data, design, and digital marketing",
+      "image": "/img/design/image-camp.webp"
     }
   ]
 }
