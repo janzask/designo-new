@@ -8,6 +8,38 @@
     background-position: 0 6.4rem;
 }
 
+.intro-about {
+    background-image: url(/img/bg-pattern-hero-about-mobile.svg);
+    background-position: -31.4rem 11.3rem;
+}
+
+.intro-about-image {
+    display: block;
+}
+
+.intro-about-text {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 3.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.intro-about-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.125;
+    letter-spacing: 0;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+.intro-about-descriptions {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1.6667;
+}
+
 .intro-design {
     min-height: 20rem;
     background-image: url(/img/bg-pattern-intro-web.svg);
