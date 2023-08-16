@@ -29,3 +29,42 @@
 }
 
 // PROPERTIES ABOUT
+
+.properties-about {
+    background-color: var(--colors-very-light-peach);
+}
+
+.properties-about:nth-of-type(4) {
+    margin-bottom: 7.5rem;
+}
+
+.properties-about-image {
+    display: block;
+}
+
+.properties-about-text {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.properties-about-heading {
+    color: var(--colors-peach);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.125;
+    letter-spacing: 0;
+    margin-bottom: 1.5rem;
+}
+
+.properties-about-descriptions {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1.66667;
+}
+
+.properties-about-descriptions:last-child {
+    margin-top: 1.5rem;
+}
