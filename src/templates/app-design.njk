@@ -10,24 +10,17 @@
     {{ super() }}
     <div class="all design">
         {% for project in appProjects %}
-                <section class="design-project">
-                <div>
-                    <img class="design-card-image" src="{{ project.image }}" alt=""></div>
-                    <div class="design-card-text">
-                        <h3 class="design-card-heading">{{ project.title }}</h3>
-                        <p>{{ project.descriptions }}</p>
-                    </div>
-                </section>      
-            {% endfor %}
-                            <article>
-                                <a class="services-web services-card" href="./web-design">
-                                    <h2 class="services-heading">Web Design</h2>
-                                    <p class="services-link">View Projects</p>
-                                </a>
-                                <a class="services-graphic services-card" href="./graphic-design">
-                                    <h2 class="services-heading">Graphic Design</h2>
-                                    <p class="services-link">View Projects</p>
-                                </a>
-                            </article>
-                        </div>
-                    {% endblock %}
+            {% include "designData.njk" %}
+        {% endfor %}
+        <article>
+            <a class="services-web services-card" href="./web-design">
+                <h2 class="services-heading">Web Design</h2>
+                <p class="services-link">View Projects</p>
+            </a>
+            <a class="services-graphic services-card" href="./graphic-design">
+                <h2 class="services-heading">Graphic Design</h2>
+                <p class="services-link">View Projects</p>
+            </a>
+        </article>
+    </div>
+{% endblock %}
