@@ -21,3 +21,16 @@
     background-color: var(--colors-light-peach);
     color: var(--colors-white);
 }
+
+.button-about
+{
+    background-color: var(--colors-peach);
+    color: var(--colors-white);
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+.button-about:hover,
+.button-about:active {
+    background-color: var(--colors-light-peach);
+}
