@@ -78,3 +78,54 @@
     margin-top: 2.6rem;
     margin-bottom: 0;
 }
+
+// PROPERTIES LOCATIONS
+
+.properties-locations {
+    background-image: url(/img/bg-pattern-intro-app.svg);
+    background-color: var(--colors-very-light-peach);
+    background-position: 18rem 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.properties-locations:last-of-type {
+    margin-bottom: 7.5rem;
+}
+
+.properties-locations-image {
+    display: block;
+    max-width: 23.5rem;
+    min-height: 20rem;
+    height: auto;
+}
+
+.properties-country-locations {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.properties-heading-locations {
+    font-size: 2rem;
+    line-height: 1.125;
+    letter-spacing: 0em;
+    color: var(--colors-peach);
+    margin-bottom: 1.5rem;
+}
+
+.properties-heading-locations-contact {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.6667;
+    text-transform: none;
+    margin: 0;
+    margin-top: 1.5rem;
+}
+
+.properties-locations-contact-descriptions {
+    font-size: 0.9375rem;
+    line-height: 1.6667;
+}
