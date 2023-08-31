@@ -9,8 +9,10 @@
 {% block content %}
     {{ super() }}
     <div class="all design">
-        {% for project in appProjects %}
-            {% include "designData.njk" %}
+        {% for project in projects %}
+            {% if project.type === "app" %}
+                {% include "designData.njk" %}
+            {% endif %}      
         {% endfor %}
         <article>
             <a class="services-web services-card" href="./web-design">
