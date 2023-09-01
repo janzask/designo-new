@@ -6,42 +6,10 @@
 
 {% block content %}
 
-<section class="properties-locations">
-    <img class="properties-locations-image" src="/img/image-map-canada.webp" alt="">
-  <div class="properties-country-locations">
-    <h2 class="properties-heading-locations">Canada</h2>
-    <h3 class="properties-heading-locations-contact">Designo Central Office</h3>
-    <p class="properties-locations-contact-descriptions">3886 Wellington Street</p>
-    <p class="properties-locations-contact-descriptions">Toronto, Ontario M9C 3J5</p>
-    <h3 class="properties-heading-locations-contact">Contact</h3>
-    <p class="properties-locations-contact-descriptions">P : +1 253-863-8967</p>
-    <p class="properties-locations-contact-descriptions">M : contact@designo.co</p>
-  </div>
-</section>
+  {% for project in projects %}
+    {% if project.type === "offices" %}
+      {% include "locationsData.njk" %}
+    {% endif %}
+  {% endfor %}
 
-<section class="properties-locations">
-  <img class="properties-locations-image" src="/img/image-map-australia.webp" alt="">
-  <div class="properties-country-locations">
-    <h2 class="properties-heading-locations">Australia</h2>
-    <h3 class="properties-heading-locations-contact">Designo AU Office</h3>
-    <p class="properties-locations-contact-descriptions">19 Balonne Street</p>
-    <p class="properties-locations-contact-descriptions">New South Wales 2443</p>
-    <h3 class="properties-heading-locations-contact">Contact</h3>
-    <p class="properties-locations-contact-descriptions">P : (02) 6720 9092</p>
-    <p class="properties-locations-contact-descriptions">M : contact@designo.au</p>
-  </div>
-</section>
-
-<section class="properties-locations">
-  <img class="properties-locations-image" src="/img/image-map-uk.webp" alt="">
-  <div class="properties-country-locations">
-    <h2 class="properties-heading-locations">United Kingdom</h2>
-    <h3 class="properties-heading-locations-contact">Designo UK Office</h3>
-    <p class="properties-locations-contact-descriptions">13 Colorado Way</p>
-    <p class="properties-locations-contact-descriptions">Rhyd-y-fro SA8 9GA</p>
-    <h3 class="properties-heading-locations-contact">Contact</h3>
-    <p class="properties-locations-contact-descriptions">P : 078 3115 1400</p>
-    <p class="properties-locations-contact-descriptions">M : contact@designo.uk</p>
-  </div>
-</section>  
 {% endblock %}
