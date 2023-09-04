@@ -94,7 +94,8 @@
       "contact": "Contact",
       "phone": "P : +1 253-863-8967",
       "email": "M : contact@designo.co",
-      "type": "offices"
+      "type": "offices",
+      "connect": "canada_locations"
     },
     {
       "image": "/img/image-map-australia.webp",
@@ -105,7 +106,8 @@
       "contact": "Contact",
       "phone": "P : (02) 6720 9092",
       "email": "M : contact@designo.au",
-      "type": "offices"
+      "type": "offices",
+      "connect": "australia_locations"
     },
     {
       "image": "/img/image-map-uk.webp",
@@ -116,7 +118,8 @@
       "contact": "Contact",
       "phone": "P : 078 3115 1400",
       "email": "M : contact@designo.uk",
-      "type": "offices"
+      "type": "offices",
+      "connect": "united_kingdom_locations"
     }
   ]
 }
