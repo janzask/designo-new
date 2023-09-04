@@ -83,3 +83,29 @@
     border-top-right-radius: 2.3rem;
     border-top-left-radius: 2.3rem;
 }
+
+// CONTACT 
+
+.contact {
+    background-image: url(/img/bg-pattern-hero-contact-mobile.svg);
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.intro-contact {
+    text-align: center;
+}
+
+.intro-contact-heading {
+    font-size: 2rem;
+    line-height: 1.125;
+    margin-bottom: 1.5rem;
+}
+
+.intro-contact-descriptions {
+    font-size: 0.9375rem;
+    line-height: 1.6667;
+    margin-bottom: 3rem;
+}
