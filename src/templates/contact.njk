@@ -6,7 +6,7 @@
 
 {% block content %}
 
-    <section class="intro contact">
+    <section class="contact">
       <div class="intro-contact">
         <h2 class="intro-contact-heading">Contact Us</h2>
         <p class="intro-contact-descriptions">
@@ -14,14 +14,14 @@
           grow. If you are looking for unique digital experiences that’s relatable to your users, drop us a line.
         </p>
       </div>
-    <form action="">
-      <div>
-        <label for="">Name<input type="text"/></label>
-        <label for="">Email Address<input type="text"/></label>
-        <label for="">Phone<input type="text"/></label>
-        <label for="">Your Message<input type="text"/></label>
-      </div>
-      <button class="button">Submit</button>
+    <form class="intro-contact-form">
+        <input class="intro-input" type="text" placeholder="Name" required/>
+        <input class="intro-input" type="email" id="email" placeholder="Email Address" required/>
+        <input class="intro-input" type="tel" id="phone" placeholder="Phone" required/>
+        <input class="intro-input" type="text" placeholder="Your Message" required/>
+        <div>
+          <input class="button" type="submit" value="Submit" />
+        </div>
     </form>
     </section>
 
