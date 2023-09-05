@@ -87,7 +87,8 @@
 // CONTACT 
 
 .contact {
-    background-image: url(/img/bg-pattern-hero-contact-mobile.svg);
+    color: var(--colors-white);
+    background-color: var(--colors-peach);
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
     padding-left: 1.5rem;
@@ -95,17 +96,47 @@
 }
 
 .intro-contact {
+    background-image: url(/img/bg-pattern-hero-contact-mobile.svg);
     text-align: center;
 }
 
 .intro-contact-heading {
     font-size: 2rem;
-    line-height: 1.125;
     margin-bottom: 1.5rem;
+    letter-spacing: 0;
 }
 
 .intro-contact-descriptions {
     font-size: 0.9375rem;
     line-height: 1.6667;
     margin-bottom: 3rem;
+}
+
+.intro-input {
+    min-width: 20.5rem;
+    background-color: var(--colors-peach);
+    color: var(--colors-white);
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 0;
+    padding-bottom: 0.875rem;
+    padding-left: 0.875rem;
+    padding-top: 2rem;
+}
+
+.intro-input:first-child {
+    padding-top: 0;
+}
+
+.intro-input:last-of-type {
+    padding-bottom: 5.075rem;
+}
+
+input::placeholder {
+    font-family: "Jost";
+    color: var(--colors-white);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1.7333;
+    opacity: 0.5;
 }
