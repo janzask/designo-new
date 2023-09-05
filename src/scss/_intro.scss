@@ -87,6 +87,8 @@
 // CONTACT 
 
 .contact {
+    background-image: url(/img/bg-pattern-hero-contact-mobile.svg);
+    background-position: -5.8rem 0rem;
     color: var(--colors-white);
     background-color: var(--colors-peach);
     padding-top: 4.5rem;
@@ -96,7 +98,6 @@
 }
 
 .intro-contact {
-    background-image: url(/img/bg-pattern-hero-contact-mobile.svg);
     text-align: center;
 }
 
