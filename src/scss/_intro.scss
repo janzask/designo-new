@@ -115,6 +115,7 @@
 
 .input {
     font-family: "Jost";
+    line-height: 1.7333em;
     min-width: 20.5rem;
     background-color: var(--colors-peach);
     color: var(--colors-white);
@@ -122,9 +123,9 @@
     outline: none;
     border-bottom: 1px solid white;
     padding: 0;
-    padding-bottom: 0.875rem;
+    padding-bottom: 0.6875rem;
     padding-left: 0.875rem;
-    padding-top: 2rem;
+    padding-top: 1.625rem;
 }
 
 .input:first-child {
@@ -132,14 +133,13 @@
 }
 
 .input:last-of-type {
-    padding-bottom: 5.075rem;
+    padding-bottom: 5rem;
 }
 
 input::placeholder {
-    font-family: "Jost";
     color: var(--colors-white);
     font-size: 0.9375rem;
     font-weight: 500;
-    line-height: 1.7333;
     opacity: 0.5;
 }
+
