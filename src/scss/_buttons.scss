@@ -23,6 +23,8 @@
     color: var(--colors-white);
 }
 
+// ABOUT
+
 .button-about
 {
     background-color: var(--colors-peach);
@@ -34,4 +36,16 @@
 .button-about:hover,
 .button-about:active {
     background-color: var(--colors-light-peach);
+}
+
+// CONTACT
+
+.intro-contact-button {
+    text-align: center;
+}
+
+.button-contact {
+    margin-top: 2.5rem;
+    padding-top: 1.125rem;
+    padding-bottom: 1.125rem;
 }
