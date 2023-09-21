@@ -1,20 +1,20 @@
 // BUTTONS
 
 .button {
-    min-width: 9.5rem;
     display: inline-block;
     color: var(--colors-dark-grey);
     background-color: var(--colors-white);
     font-size: 0.9375rem;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.06667em;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 1rem;
-    margin-top: 1.5rem;
     border-radius: 0.5rem;
     border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 .button:hover,
@@ -23,33 +23,18 @@
     color: var(--colors-white);
 }
 
-// ABOUT
+// ABOUT and CONTACT
 
-.button-about
-{
+.button-about-contact {
     background-color: var(--colors-peach);
     color: var(--colors-white);
-    font-weight: 700;
-    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1.125rem;
+    padding-left: 1.125rem;
 }
 
-.button-about:hover,
-.button-about:active {
+.button-about-contact:hover,
+.button-about-contact:active {
     background-color: var(--colors-light-peach);
-}
-
-// CONTACT
-
-.intro-contact-button {
-    text-align: center;
-}
-
-.button-contact {
-    margin-top: 2.5rem;
-    padding-top: 1.125rem;
-    padding-bottom: 1.125rem;
-}
-
-.button-contact-city {
-    font-weight: 500;
 }
