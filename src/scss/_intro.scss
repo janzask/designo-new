@@ -6,45 +6,13 @@
     background-image: url(/img/oval.svg);
     background-repeat: no-repeat;
     background-position: 0 6.4rem;
+    text-align: center;
 }
 
 .intro-text {
     color: var(--colors-white);
     text-align: center;
     padding: 5rem 1.5rem;
-}
-
-// ABOUT
-
-.intro-about {
-    background-image: url(/img/bg-pattern-hero-about-mobile.svg);
-    background-position: -31.4rem 11.3rem;
-}
-
-.intro-about-image {
-    display: block;
-}
-
-.intro-about-text {
-    text-align: center;
-    padding-top: 5rem;
-    padding-bottom: 3.5rem;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-}
-
-// DESIGN
-
-.intro-design {
-    min-height: 20rem;
-    background-image: url(/img/bg-pattern-intro-web.svg);
-    background-position: -31.4rem -18.2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5rem;
-    text-align: center;
 }
 
 .intro-heading {
@@ -69,36 +37,57 @@
     border-top-left-radius: 2.3rem;
 }
 
+// ABOUT
+
+.intro-about {
+    background-image: url(/img/bg-pattern-hero-about-mobile.svg);
+    background-position: -31.4rem 11.3rem;
+}
+
+.intro-about-image {
+    display: block;
+}
+
+.intro-about-text {
+    padding-top: 5rem;
+    padding-bottom: 3.5rem;
+
+}
+
+// DESIGN
+
+.intro-design {
+    min-height: 20rem;
+    background-image: url(/img/bg-pattern-intro-web.svg);
+    background-position: -31.4rem -18.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+
 // CONTACT
 
-.contact {
+.intro-contact {
     background-image: url(/img/bg-pattern-hero-contact-mobile.svg);
     background-position: -5.8rem 0rem;
-    color: var(--colors-white);
-    background-color: var(--colors-peach);
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
 
-.intro-contact {
-    text-align: center;
-}
-
 .intro-contact-heading {
-    font-size: 2rem;
     margin-bottom: 1.5rem;
-    letter-spacing: 0;
 }
 
-.intro-contact-descriptions {
-    font-size: 0.9375rem;
-    line-height: 1.6667;
-    margin-bottom: 3rem;
+.intro-form {
+    margin-top: 3rem;
 }
 
-.input {
+.intro-form-input {
     font-family: "Jost";
     line-height: 1.7333em;
     min-width: 20.5rem;
@@ -113,15 +102,15 @@
     padding-top: 1.625rem;
 }
 
-.input:first-child {
+.intro-form-input:first-child {
     padding-top: 0;
 }
 
-.input:last-of-type {
+.intro-form-input:last-of-type {
     padding-bottom: 5rem;
 }
 
-input::placeholder {
+.intro-form-input::placeholder {
     color: var(--colors-white);
     font-size: 0.9375rem;
     font-weight: 500;
