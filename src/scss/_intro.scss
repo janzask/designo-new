@@ -8,6 +8,12 @@
     background-position: 0 6.4rem;
 }
 
+.intro-text {
+    color: var(--colors-white);
+    text-align: center;
+    padding: 5rem 1.5rem;
+}
+
 // ABOUT
 
 .intro-about {
@@ -27,21 +33,6 @@
     padding-left: 1.5rem;
 }
 
-.intro-about-heading {
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 1.125;
-    letter-spacing: 0;
-    margin: 0;
-    margin-bottom: 1.5rem;
-}
-
-.intro-about-descriptions {
-    font-size: 0.9375rem;
-    font-weight: 700;
-    line-height: 1.6667;
-}
-
 // DESIGN
 
 .intro-design {
@@ -54,12 +45,6 @@
     align-items: center;
     padding: 1.5rem;
     text-align: center;
-}
-
-.intro-text {
-    color: var(--colors-white);
-    text-align: center;
-    padding: 5rem 1.5rem;
 }
 
 .intro-heading {
