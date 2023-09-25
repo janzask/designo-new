@@ -66,6 +66,15 @@ p {
     margin-left: 1.5rem;
 }
 
+// Horizontal line inside footer
+
+hr {
+    width: 100%;
+    color: var(--colors-white);
+    opacity: 0.1;
+    margin: 0;
+}
+
 @import "header";
 @import "intro";
 @import "footer";
