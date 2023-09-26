@@ -9,17 +9,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: 1rem;
 }
 
 .header-image {
     display: block;
-    max-width: 100%;
+    max-width: 12.25rem;
     height: auto;
 }
 
 .header-logo {
     width: 100%;
-    padding-right: 6.25rem;
 }
 
 .header-navigation {
