@@ -87,26 +87,20 @@
 }
 
 .intro-form-input {
-    font-family: "Jost";
-    line-height: 1.7333em;
     min-width: 20.5rem;
     background-color: var(--colors-peach);
     color: var(--colors-white);
     border: none;
     outline: none;
     border-bottom: 1px solid var(--colors-white);
-    padding: 0;
+    margin-top: 1.5625rem;
     padding-bottom: 0.6875rem;
     padding-left: 0.875rem;
-    padding-top: 1.625rem;
+    padding-right: 0;
 }
 
 .intro-form-input:first-child {
-    padding-top: 0;
-}
-
-.intro-form-input:last-of-type {
-    padding-bottom: 5rem;
+    margin-top: 0;
 }
 
 .intro-form-input::placeholder {
