@@ -19,12 +19,12 @@
     position: relative; 
 }
 
-.business-heading,
-.business-paragraph {
+.business__title,
+.business__descriptions {
     color: var(--colors-white);
 }
 
-.business-heading {
+.business__title {
     font-size: 2rem;
     line-height: 1.125;
     letter-spacing: 0;
@@ -33,7 +33,7 @@
     margin-bottom: 1rem;
 }
 
-.business-paragraph {
+.business__descriptions {
     font-size: 0.9375rem;
     line-height: 1.6667;
     margin-bottom: 2rem;

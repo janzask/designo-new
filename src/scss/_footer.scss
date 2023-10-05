@@ -4,7 +4,7 @@
     background-color: var(--colors-black);
 }
 
-.footer-article {
+.footer__article {
     padding: 15.875rem 1.5rem 4rem;
     display: flex;
     flex-direction: column;
@@ -12,18 +12,18 @@
     text-align: center;
 }
 
-.footer-logo {
+.footer__logo {
     max-width: 100%;
     padding-bottom: 1.8rem;
 }
 
-.footer-navigation {
+.footer__navigation {
     display: flex;
     flex-direction: column;
     margin-bottom: 2.5rem;
 }
 
-.footer-navigation-link {
+.footer__navigation--link {
     color: var(--colors-white);
     font-size: 0.875rem;
     line-height: 1;
@@ -33,18 +33,17 @@
     margin-top: 2rem;
 }
 
-.footer-address,
-.footer-contact {
+.footer__text {
     color: var(--colors-white);
     opacity: 0.5;
     margin-bottom: 2.5rem;
 }
 
-.footer-designo-office {
+.footer__title {
     font-weight: 700;
 }
 
-.footer-social-icon ul {
+.footer__icon ul {
     margin: 0;
     padding: 0;
     display: flex;
@@ -55,6 +54,6 @@
 
 // CONTACT
 
-.footer-contact-page {
+.footer__contact {
     padding-top: 4rem;
 }

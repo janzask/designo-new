@@ -4,30 +4,30 @@
     margin-top: 6rem;
 }
 
-.design-project {
+.design__project {
     margin-bottom: 2.5rem;
     border-radius: 1rem;
     background-color: var(--colors-very-light-peach);
     overflow: hidden;
 }
 
-.design-project:last-child {
+.design__project:last-child {
     margin-bottom: 6rem;
 }
 
-.design-card-image {
+.design-card__image {
     display: block;
     max-width: 100%;
     min-height: 20rem;
     height: auto;
 }
 
-.design-card-text {
+.design-card__text {
     padding: 2rem 1.875rem;
     text-align: center;
 }
 
-.design-card-heading {
+.design-card__title {
     color: var(--colors-peach);
     margin: 0;
     margin-bottom: 1rem;

@@ -5,7 +5,7 @@
     margin: 7.5rem 0;
 }
 
-.services-card {
+.services__card {
     background-color: #2e2a2a;
     color: var(--colors-white);
     background-size: cover;
@@ -23,33 +23,33 @@
     gap: 0.75rem;
 }
 
-.services-card:last-of-type {
+.services__card:last-of-type {
     margin-bottom: 0;
 }
 
-.services-content {
+.services__content {
     margin-top: 6rem;
     margin-bottom: 6rem;
 }
 
-.services-web {
+.services__web {
     background-image: url(/img/web-design-card.webp);
 }
 
-.services-app {
+.services__app {
     background-image: url(/img/app-design-card.webp);
 }
 
-.services-graphic {
+.services__graphic {
     background-image: url(/img/graphic-design-card.webp);
 }
 
-.services-heading {
+.services__title { 
     font-size: 1.75rem;
     text-align: center;
 }
 
-.services-link {
+.services__link {
     font-size: 0.9375rem;
     font-weight: 500;
     letter-spacing: 0.3333em;

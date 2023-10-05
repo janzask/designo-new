@@ -13,15 +13,15 @@
     </head>
     <body>
         <header class="header">
-            <h1 class="header-brand">
-                <div class="header-logo">
-                    <img class="header-image" src="/img/logo/logo-dark-new.svg" alt="Designo"/>
+            <h1 class="header__brand">
+                <div class="header__logo">
+                    <img class="header__image" src="/img/logo/logo-dark-new.svg" alt="Designo"/>
                 </div>
                 <div class="header-menu">
-                    <img class="header-image" src="/img/icons/icon-hamburger.svg" alt="menu" width="24" height="20">
+                    <img class="header__image" src="/img/icons/icon-hamburger.svg" alt="menu" width="24" height="20">
                 </div>
             </h1>
-            <nav class="header-navigation">
+            <nav class="header__navigation">
                 <ul>
                     <li><a href="/">Our Company</a></li>
                     <li><a href="/locations">Locations</a></li>
@@ -33,35 +33,35 @@
             {% block content %}{% endblock %}
             {% block calltoaction %}
                 <article class="business">
-                    <h3 class="business-heading">Let’s talk about your project</h3>
-                    <p class="business-paragraph">
+                    <h3 class="business__title">Let’s talk about your project</h3>
+                    <p class="business__descriptions">
                         Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.
                     </p>
-                    <a class="button button-business" href="./contact">Get in touch</a>
+                    <a class="button button__footer" href="./contact">Get in touch</a>
                 </article>
             {% endblock %}
         </main>
         {% block footer %}
             <footer class="footer">
-                <article class="footer-article">
-                    <img class="footer-logo" src="/img/logo/logo-light-new.svg" alt="Designo"/>
+                <article class="footer__article">
+                    <img class="footer__logo" src="/img/logo/logo-light-new.svg" alt="Designo"/>
                     <hr>
-                    <nav class="footer-navigation">
-                        <a class="footer-navigation-link" href="./">Our Company</a>
-                        <a class="footer-navigation-link" href="./locations">Locations</a>
-                        <a class="footer-navigation-link" href="./contact">Contact</a>
+                    <nav class="footer__navigation">
+                        <a class="footer__navigation--link" href="./">Our Company</a>
+                        <a class="footer__navigation--link" href="./locations">Locations</a>
+                        <a class="footer__navigation--link" href="./contact">Contact</a>
                     </nav>
-                    <section class="footer-address">
-                        <p class="footer-designo-office">Designo Central Office</p>
+                    <section class="footer__text">
+                        <p class="footer__title">Designo Central Office</p>
                         <p>3886 Wellington Street</p>
                         <p>Toronto, Ontario M9C 3J5</p>
                     </section>
-                    <section class="footer-contact">
-                        <p class="footer-designo-office">Contact Us (Central Office)</p>
+                    <section class="footer__text">
+                        <p class="footer__title">Contact Us (Central Office)</p>
                         <p>P : +1 253-863-8967</p>
                         <p>M : contact@designo.co</p>
                     </section>
-                    <section class="footer-social-icon">
+                    <section class="footer__icon">
                         <ul>
                             <li><a href="#"><img src="/img/icons/icon-facebook.svg" alt="Facebook"/></a></li>
                             <li><a href="#"><img src="/img/icons/icon-youtube.svg" alt="Youtube"/></a></li>

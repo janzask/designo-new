@@ -4,7 +4,7 @@
     padding: 2.125rem 1.5rem;
 }
 
-.header-brand {
+.header__brand {
     margin: 0;
     display: flex;
     justify-content: center;
@@ -12,16 +12,16 @@
     column-gap: 1rem;
 }
 
-.header-image {
+.header__image {
     display: block;
     max-width: 12.25rem;
     height: auto;
 }
 
-.header-logo {
+.header__logo {
     width: 100%;
 }
 
-.header-navigation {
+.header__navigation {
     display: none;
 }

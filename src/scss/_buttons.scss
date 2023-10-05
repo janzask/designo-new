@@ -23,11 +23,11 @@
     color: var(--colors-white);
 }
 
-.button-intro {
+.button__intro {
     margin-top: 1.5rem;
 }
 
-.button-about-contact {
+.button--secondary {
     background-color: var(--colors-peach);
     color: var(--colors-white);
     padding-top: 1rem;
@@ -36,16 +36,16 @@
     padding-left: 1.125rem;
 }
 
-.button-about-contact:hover,
-.button-about-contact:active {
+.button--secondary:hover,
+.button--secondary:active {
     background-color: var(--colors-light-peach);
 }
 
-.button-business {
+.button__footer {
     padding: 1rem 1.125rem;
 }
 
-.button-contact {
+.button--submit {
     padding: 1.125rem 3rem;
     margin-top: 2.5rem;
 }
