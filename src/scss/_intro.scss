@@ -39,23 +39,23 @@
 
 // ABOUT
 
-.intro-about {
+.intro__about {
     background-image: url(/img/bg-pattern-hero-about-mobile.svg);
     background-position: -31.4rem 11.3rem;
 }
 
-.intro-about-image {
+.intro__about--image {
     display: block;
 }
 
-.intro-about-text {
+.intro__about--text {
     padding: 5rem 1.5rem;
 
 }
 
 // DESIGN
 
-.intro-design {
+.intro__design {
     min-height: 20rem;
     background-image: url(/img/bg-pattern-intro-web.svg);
     background-position: -31.4rem -18.2rem;
@@ -69,7 +69,7 @@
 
 // CONTACT
 
-.intro-contact {
+.intro__contact {
     background-image: url(/img/bg-pattern-hero-contact-mobile.svg);
     background-position: -5.8rem 0rem;
     padding-top: 4.5rem;
@@ -78,15 +78,15 @@
     padding-right: 1.5rem;
 }
 
-.intro-contact-heading {
+.intro__contact--title {
     margin-bottom: 1.5rem;
 }
 
-.intro-form {
+.intro__form {
     margin-top: 3rem;
 }
 
-.intro-form-input {
+.intro__form--input {
     min-width: 20.5rem;
     background-color: var(--colors-peach);
     color: var(--colors-white);
@@ -99,11 +99,11 @@
     padding-right: 0;
 }
 
-.intro-form-input:first-child {
+.intro__form--input:first-child {
     margin-top: 0;
 }
 
-.intro-form-input::placeholder {
+.intro__form--input::placeholder {
     color: var(--colors-white);
     font-size: 0.9375rem;
     font-weight: 500;

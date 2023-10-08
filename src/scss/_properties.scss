@@ -26,22 +26,22 @@
 
 // PROPERTIES ABOUT
 
-.properties-about {
+.properties__about {
     background-color: var(--colors-very-light-peach);
 }
 
 /*chyba tu pozadie tie kruhy*/
 
-.properties-about:nth-of-type(4) {
+.properties__about:nth-of-type(4) {
     margin-bottom: 9.2rem;
     margin-top: -0.3rem;
 }
 
-.properties-about-image {
+.properties__about--image {
     display: block;
 }
 
-.properties-about-text {
+.properties__about--text {
     text-align: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -49,7 +49,7 @@
     padding-right: 1.5rem;
 }
 
-.properties-about-heading {
+.properties__about--title {
     color: var(--colors-peach);
     font-size: 2rem;
     font-weight: 500;
@@ -58,38 +58,38 @@
     margin-bottom: 1.5rem;
 }
 
-.properties-about-descriptions {
+.properties__about--descriptions {
     font-size: 0.9375rem;
     line-height: 1.6667;
 }
 
-.properties-about-descriptions:last-child {
+.properties__about--descriptions:last-child {
     margin-top: 1.5rem;
 }
 
-.properties-city-section {
+.properties__city {
     margin-bottom: 3.1rem;
 }
 
-.properties-city-heading {
+.properties__city--title {
     margin-top: 2.5rem;
     margin-bottom: 2rem;
 }
 
 // PROPERTIES LOCATIONS
 
-.properties-locations {
+.properties__locations {
     background-image: url(/img/bg-pattern-three-circles.svg);
     background-color: var(--colors-very-light-peach);
     background-position: 18.4rem 1.9rem;
     margin-bottom: 2.5rem;
 }
 
-.properties-locations:last-of-type {
+.properties__locations:last-of-type {
     margin-bottom: 7.5rem;
 }
 
-.properties-locations-image {
+.properties__locations--image {
     display: block;
     max-width: 100%;
     min-height: 20rem;
@@ -97,7 +97,7 @@
     object-fit: cover;
 }
 
-.properties-locations-country {
+.properties__locations--country {
     text-align: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -105,7 +105,7 @@
     padding-right: 1.5rem;
 }
 
-.properties-locations-heading {
+.properties__locations--title {
     font-size: 2rem;
     line-height: 1.125;
     letter-spacing: 0em;
@@ -113,7 +113,7 @@
     margin-bottom: 1.5rem;
 }
 
-.properties-locations-heading-contact {
+.properties__adress--title {
     font-size: 0.9375rem;
     font-weight: 700;
     letter-spacing: 0;
@@ -123,7 +123,7 @@
     margin-top: 1.5rem;
 }
 
-.properties-locations-contact-descriptions {
+.properties__adress--descriptions {
     font-size: 0.9375rem;
     line-height: 1.6667;
 }
