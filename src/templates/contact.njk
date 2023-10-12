@@ -13,14 +13,26 @@
           grow. If you are looking for unique digital experiences that’s relatable to your users, drop us a line.
         </p>
 
-    <form class="intro__form">
-        <input class="intro__form--input" type="text" placeholder="Name" required/>
-        <input class="intro__form--input" type="email" id="email" placeholder="Email Address" required/>
-        <input class="intro__form--input" type="tel" id="phone" placeholder="Phone" required/>
-        <textarea class="intro__form--input" type="text" rows="3" placeholder="Your Message"></textarea>
-        <div>
-          <input class="button button--submit" type="submit" value="Submit" />
-        </div>
+    <form class="intro__form" method="post">
+      <div class="intro__container">
+        <label class="intro__label" for="name">Name</label>
+        <input class="intro__input" type="text" id="name" name="name" required/>
+      </div>
+      <div class="intro__container">
+        <label class="intro__label" for="email">Email Address</label>
+        <input class="intro__input" type="email" id="email" name="email" required/>
+      </div>
+      <div class="intro__container">
+        <label class="intro__label" for="phone">Phone</label>
+        <input class="intro__input" type="tel" id="phone" name="phone"/>
+      </div>
+      <div class="intro__container">
+        <label class="intro__label" for="message">Your Message</label>
+        <textarea class="intro__input intro__textarea" type="text" id="message" name="message"></textarea>
+      </div>
+          <button class="button button--submit">
+            Submit
+          </button>
     </form>
     </section>
 
