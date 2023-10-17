@@ -84,7 +84,7 @@
     object-fit: cover;
 }
 
-.properties__content--about {
+.properties__content {
     text-align: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -92,15 +92,7 @@
     padding-right: 1.5rem;
 }
 
-.properties__content--locations {
-    text-align: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-}
-
-.properties__description--about {
+.properties__description {
     font-size: 0.9375rem;
     line-height: 1.6667;
 }
@@ -108,12 +100,6 @@
 .properties__description--about:last-child {
     margin-top: 1.5rem;
 }
-
-.properties__description--service {
-    font-size: 0.9375rem;
-    line-height: 1.6667;
-}
-
 
 .properties__illustration {
     display: block;
