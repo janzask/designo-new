@@ -9,7 +9,7 @@
 }
 
 .properties--about:nth-of-type(4) {
-    margin-bottom: 9.2rem;
+    margin-bottom: 7.6rem;
 }
 
 .properties--locations {
@@ -56,12 +56,15 @@
 }
 
 .properties__title--city {
-    margin-top: 2.4rem;
+    margin-top: 2.9rem;
     margin-bottom: 2rem;
 }
 
 .properties__property {
     margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .properties__property:last-child {
@@ -72,15 +75,9 @@
     margin-bottom: 3.1rem;
 }
 
-.properties__image--about {
-    display: block;
-}
-
 .properties__image--locations {
-    display: block;
-    max-width: 100%;
+    width: 100%;
     min-height: 20rem;
-    height: auto;
     object-fit: cover;
 }
 
@@ -90,6 +87,10 @@
     padding-bottom: 5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+}
+
+.properties__content--about {
+   padding-bottom: 6.6rem;
 }
 
 .properties__description {
@@ -102,6 +103,5 @@
 }
 
 .properties__illustration {
-    display: block;
     margin: 0 auto;
 }
