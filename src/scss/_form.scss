@@ -1,0 +1,35 @@
+.form {
+    margin-top: 3rem;
+}
+
+.form__field {
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+    border-bottom: 1px solid var(--colors-white);
+    margin-top: 1.5rem;
+    opacity: 0.5;
+}
+
+.form__input {
+    color: var(--colors-white);
+    width: 100%;
+    background-color: var(--colors-peach);
+    color: var(--colors-white);
+    border: none;
+    outline: none;
+    padding-right: 0.875rem;
+}
+
+.form__label {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1.7773;
+    min-width: 7rem;
+    margin-bottom: 0.75rem;
+    margin-left: 0.875rem;
+}
+
+.form__textarea {
+    height: 6.15rem;
+}
