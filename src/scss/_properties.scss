@@ -29,21 +29,13 @@
     margin-bottom: 2rem;
 }
 
-.properties__title--about {
+.properties__title--multi {
     color: var(--colors-peach);
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 1.125;
-    letter-spacing: 0;
-    margin-bottom: 1.5rem;
-}
-
-.properties__title--locations {
     font-size: 2rem;
     line-height: 1.125;
     letter-spacing: 0em;
-    color: var(--colors-peach);
     margin-bottom: 1.5rem;
+    margin-top: 0;
 }
 
 .properties__title--service {
@@ -58,7 +50,6 @@
 
 .properties__title--city {
     margin-top: 2.9rem;
-    margin-bottom: 2rem;
 }
 
 .properties__property {
