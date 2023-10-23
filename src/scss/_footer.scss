@@ -23,7 +23,7 @@
     margin-bottom: 2.5rem;
 }
 
-.footer__navigation--link {
+.footer__link {
     color: var(--colors-white);
     font-size: 0.875rem;
     line-height: 1;
@@ -33,7 +33,7 @@
     margin-top: 2rem;
 }
 
-.footer__text {
+.footer__content {
     color: var(--colors-white);
     opacity: 0.5;
     margin-bottom: 2.5rem;
@@ -51,8 +51,6 @@
     gap: 1rem;
     list-style: none;
 }
-
-// CONTACT
 
 .footer__contact {
     padding-top: 4rem;
