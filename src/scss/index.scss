@@ -69,17 +69,18 @@ p {
     margin-left: 1.5rem;
 }
 
-img {
-    display: block;
-    height: auto;
-}
-
 .horizontal-line {
     width: 100%;
     color: var(--colors-white);
     opacity: 0.1;
     margin: 0;
 }
+
+img {
+    display: block;
+    height: auto;
+}
+
 
 @import "header";
 @import "intro";
