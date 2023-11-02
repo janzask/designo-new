@@ -15,14 +15,16 @@
             {% endif %}    
         {% endfor %}
         <article class="services services--smaller">
-            <a class="services__card services__card--app" href="./app-design">
+            <div class="services__card services__card--app">
                 <h2 class="services__title">App Design</h2>
                 <p class="services__link">View Projects</p>
-            </a>
-            <a class="services__card services__card--web" href="./web-design">
+                <a class="services__stretched" href="./app-design"></a>
+            </div>
+            <div class="services__card services__card--web">
                 <h2 class="services__title">Web Design</h2>
                 <p class="services__link">View Projects</p>
-            </a>
+                <a class="services__stretched" href="./web-design"></a>
+            </div>
         </article>
     </div>
 {% endblock %}
