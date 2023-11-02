@@ -11,7 +11,7 @@
     text-align: center;
     margin-right: 1.5rem;
     margin-left: 1.5rem;
-    margin-bottom: -11.6rem;
+    margin-bottom: calc(var(--footer-offset) * -1);
     padding: 1.5rem;
     border-radius: 1rem;
     position: relative; 
