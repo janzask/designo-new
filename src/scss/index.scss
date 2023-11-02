@@ -12,6 +12,7 @@
     --colors-very-light-peach: #FDF3F0;
     --colors-dark-grey: #333136;
     --colors-light-grey: #f1f3f5;
+    --footer-offset: 11.6rem;
 }
 
 body,
@@ -64,16 +65,9 @@ p {
     margin: 0;
 }
 
-.vertical__space {
+.vertical__space { /* horizontal-space */
     margin-right: 1.5rem;
     margin-left: 1.5rem;
-}
-
-.horizontal-line {
-    width: 100%;
-    color: var(--colors-white);
-    opacity: 0.1;
-    margin: 0;
 }
 
 img {
@@ -81,11 +75,11 @@ img {
     height: auto;
 }
 
-
 @import "header";
 @import "intro";
 @import "footer";
 @import "services";
+/* zkontrolovat ⬇ */
 @import "properties";
 @import "buttons";
 @import "business";
