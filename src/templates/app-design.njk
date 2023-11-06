@@ -8,7 +8,7 @@
 
 {% block content %}
     {{ super() }}
-    <div class="vertical__space design">
+    <div class="horizontal__spacer design">
         {% for project in projects %}
             {% if project.type === "app" %}
                 {% include "designData.njk" %}
