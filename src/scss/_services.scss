@@ -59,9 +59,11 @@
     background-repeat: no-repeat;
     background-position: 100%;
     padding-right: 1.5rem;
+    color: var(--colors-white);
+    text-decoration: none;
 }
 
-.services__stretched::after {
+.services__link::after {
     position: absolute;
     top: 0;
     bottom: 0;
