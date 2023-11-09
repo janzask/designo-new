@@ -91,6 +91,11 @@
     line-height: 1.625;
 }
 
+.properties__description--about {
+    font-size: 0.9375rem;
+    line-height: 1.6667;
+}
+
 .properties__description--about:last-child { // last-child? je treba?
     margin-top: 1.5rem;
 }
