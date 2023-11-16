@@ -35,8 +35,8 @@
     font-size: 2rem;
     line-height: 1.125;
     letter-spacing: 0;
-    margin-bottom: 1.5rem;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .properties__title--service {
@@ -46,7 +46,6 @@
     line-height: 1.6667;
     text-transform: none;
     margin: 0;
-    margin-top: 1.5rem;
 }
 
 .properties__title--city {
@@ -64,7 +63,7 @@
     margin-bottom: 0;
 }
 
-.properties__property--city {
+.properties__property--country {
     margin-bottom: 3.125rem;
 }
 
@@ -80,6 +79,9 @@
     padding-bottom: 5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 .properties__content--about {
@@ -91,13 +93,9 @@
     line-height: 1.625;
 }
 
-.properties__description--about {
+.properties__description--multi {
     font-size: 0.9375rem;
     line-height: 1.6667;
-}
-
-.properties__description--about:last-child { // last-child? je treba?
-    margin-top: 1.5rem;
 }
 
 .properties__illustration {
