@@ -1,12 +1,18 @@
 <section id="{{ project.connect }}" class="properties properties--locations">
-    <img class="properties__image" src="{{ project.image }}" alt="">
+  <img class="properties__image" src="{{ project.image }}" alt="">
   <div class="properties__content">
-    <h2 class="properties__title properties__title--multi">{{ project.title }}</h2>
-    <h3 class="properties__title properties__title--service">{{ project.office }}</h3>
-    <p class="properties__description">{{ project.street }}</p>
-    <p class="properties__description">{{ project.city }}</p>
-    <h3 class="properties__title properties__title--service">{{ project.contact }}</h3>
-    <p class="properties__description">{{ project.phone }}</p>
-    <p class="properties__description">{{ project.email }}</p>
+    <div>
+      <h2 class="properties__title properties__title--multi">{{ project.title }}</h2>
+    </div>
+    <div>
+      <h3 class="properties__title properties__title--service">{{ project.office }}</h3>
+      <p class="properties__description properties__description--multi">{{ project.street }}</p>
+      <p class="properties__description properties__description--multi">{{ project.city }}</p>
+    </div>
+    <div>
+      <h3 class="properties__title properties__title--service">{{ project.contact }}</h3>
+      <p class="properties__description properties__description--multi">{{ project.phone }}</p>
+      <p class="properties__description properties__description--multi">{{ project.email }}</p>
+    </div>
   </div>
 </section>
