@@ -1,16 +1,15 @@
 .design {
-    margin-top: 6rem;
+    --project-spacer: 2.5rem;
+    --container-spacer: 6rem;
+    margin-top: var(--container-spacer);
+    margin-bottom: calc(var(--container-spacer) - var(--project-spacer));
 }
 
 .design__project {
-    margin-bottom: 2.5rem;
+    margin-bottom: var(--project-spacer);
     border-radius: 1rem;
     background-color: var(--colors-very-light-peach);
     overflow: hidden;
-}
-
-.design__project:last-child {
-    margin-bottom: 6rem;
 }
 
 .design__image {
