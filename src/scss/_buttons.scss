@@ -11,10 +11,8 @@
     text-transform: uppercase;
     border-radius: 0.5rem;
     border: none;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+    padding: 1rem;
+    min-width: 9.5rem;
 }
 
 .button:hover,
@@ -23,27 +21,15 @@
     color: var(--colors-white);
 }
 
+.button--secondary {
+    background-color: var(--colors-peach);
+    color: var(--colors-white);
+}
+
 .button--intro {
     margin-top: 1.5rem;
 }
 
-.button--secondary {
-    background-color: var(--colors-peach);
-    color: var(--colors-white);
-    padding-right: 1.125rem;
-    padding-left: 1.125rem;
-}
-
-.button--secondary:hover,
-.button--secondary:active {
-    background-color: var(--colors-light-peach);
-}
-
-.button--footer {
-    padding: 1rem 1.125rem;
-}
-
 .button--submit {
-    padding: 1.125rem 3rem;
     margin-top: 2.5rem;
 }
