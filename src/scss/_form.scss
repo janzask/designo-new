@@ -8,7 +8,6 @@
     text-align: start;
     border-bottom: 1px solid var(--colors-white);
     margin-top: 1.5rem;
-    opacity: 0.5;
 }
 
 .form__input {
@@ -21,6 +20,10 @@
     padding-right: 0.875rem;
 }
 
+.form__input--textarea {
+    min-height: 6.15rem;
+}
+
 .form__label {
     font-size: 0.9375rem;
     font-weight: 500;
@@ -28,8 +31,5 @@
     min-width: 7rem;
     margin-bottom: 0.75rem;
     margin-left: 0.875rem;
-}
-
-.form__textarea {
-    min-height: 6.15rem;
+    color: rgb(255 255 255 / 0.5)
 }
