@@ -33,9 +33,16 @@
 }
 
 .intro__content {
-    color: var(--colors-white);
-    text-align: center;
     padding: 5rem 1.5rem;
+}
+
+.intro__content--about {
+    background-color: var(--colors-very-light-peach);
+}
+
+.intro__content--about-under {
+    padding-bottom: 6.625rem;
+    margin-bottom: 7.5rem;
 }
 
 .intro__title {
@@ -43,12 +50,24 @@
     line-height: 1.125;
     letter-spacing: 0;
     margin: 0;
-    margin-bottom: 1.625rem;
+    margin-bottom: 1.5rem;
+}
+
+.intro__title--about {
+    color: var(--colors-peach);
 }
 
 .intro__description {
     font-size: 0.9375rem;
     line-height: 1.6667;
+}
+
+.intro__description--about {
+    color: var(--colors-dark-grey);
+}
+
+.intro__description--about + .intro__description--about {
+    margin-top: 1.5rem;
 }
 
 .intro__image {
