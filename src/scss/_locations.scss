@@ -1,0 +1,52 @@
+.location {
+    background-image: url(/img/bg-pattern-three-circles.svg);
+    background-color: var(--colors-very-light-peach);
+    background-position: 18.375rem 1.875rem;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+}
+
+.location:last-child {
+    margin-bottom: 7.5rem;
+}
+
+.location__image {
+    width: 100%;
+    min-height: 20rem;
+    object-fit: cover;
+}
+
+.location__content {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.location__title  {
+    color: var(--colors-peach);
+    font-size: 2rem;
+    line-height: 1.125;
+    letter-spacing: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.location__title--service {
+    color: var(--colors-dark-grey);
+    font-size: 0.9375rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.6667;
+    text-transform: none;
+    margin: 0;
+}
+
+.location__description {
+    font-size: 0.9375rem;
+    line-height: 1.6667;
+}
