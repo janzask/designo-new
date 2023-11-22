@@ -6,7 +6,7 @@
     margin-bottom: 2.5rem;
 }
 
-.location:last-child {
+.location--space-under {
     margin-bottom: 7.5rem;
 }
 
@@ -25,6 +25,10 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+}
+
+.location__content--space-under {
+    padding-bottom: 6.5rem;
 }
 
 .location__title  {
