@@ -11,12 +11,12 @@
     .intro {
         margin-inline: 1rem; 
         border-radius: 1rem;
-        max-width: 43.125rem;
     }
 }
 
 @media (min-width: 720px) {
     .intro {
+        max-width: 43.125rem;
         margin-inline: auto;
     }
 }
@@ -50,9 +50,12 @@
     padding: 5rem 1.5rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 720px) {
     .intro__content {
-        padding: 3.75rem 3.625rem;
+        padding-top: 3.75rem;
+        padding-bottom: 4.375rem;
+        padding-right: 3.625rem;
+        padding-left: 3.625rem;
     }
 }
 
@@ -80,16 +83,12 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 720px) {
     .intro__title {
         max-width: 35.875rem;
-    }
-}
-
-@media (min-width: 768px) {
-    .intro__title {
         font-size: 3rem;
         line-height: 1;
+        margin-bottom: 2rem;
     }
 }
 
@@ -109,8 +108,9 @@
     }
 }
 
-@media (min-width :768px) {
+@media (min-width :720px) {
     .intro__description {
+        max-width: 27.75rem;
         font-size: 1rem;
         line-height: 1.625;
     }
