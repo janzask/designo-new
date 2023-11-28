@@ -29,6 +29,19 @@
     overflow: hidden;
 }
 
+@media (min-width:470px) {
+    .services__card {
+        margin-inline: 1rem;
+    }
+} 
+
+@media (min-width:720px) {
+    .services__card {
+        min-width: 43.125rem;
+        margin-inline: auto;
+    }
+} 
+
 .services__card:last-of-type {
     margin-bottom: 0;
 }
