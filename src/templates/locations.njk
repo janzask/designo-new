@@ -6,10 +6,12 @@
 
 {% block content %}
 
+  <div class="location--space-under">
   {% for project in projects %}
     {% if project.type === "offices" %}
       {% include "locationsData.njk" %}
     {% endif %}
   {% endfor %}
+  </div>
 
 {% endblock %}
