@@ -40,14 +40,14 @@
     margin-bottom: 0;
 }
 
-.location__title--service {
-    color: var(--colors-dark-grey);
+.location__subtitle {
     font-size: 0.9375rem;
     font-weight: 700;
-    letter-spacing: 0;
     line-height: 1.6667;
     text-transform: none;
-    margin: 0;
+    letter-spacing: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .location__description {
