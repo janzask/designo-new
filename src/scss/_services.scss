@@ -32,6 +32,7 @@
 @media (min-width:470px) {
     .services__card {
         margin-inline: 1rem;
+        min-height: 12.5rem;
     }
 } 
 
@@ -39,6 +40,7 @@
     .services__card {
         min-width: 43.125rem;
         margin-inline: auto;
+        gap: 1.5rem;
     }
 } 
 
@@ -60,7 +62,7 @@
 
 
 .services__title { 
-    font-size: 1.75rem;
+    font-size: clamp(1.75rem, 1.034rem + 3.05vw, 2.5rem);
     text-align: center;
 }
 
