@@ -18,8 +18,17 @@
     color: var(--colors-white);
 }
 
+@media (min-width: 720px) {
+    .business {
+        max-width: 43.125rem;
+        margin-inline: auto;
+        min-height: 21.875rem;
+    }
+}
+
+
 .business__title {
-    font-size: 2rem;
+    font-size: clamp(2rem, 1.523rem + 2.04vw, 2.5rem);
     line-height: 1.125;
     letter-spacing: 0;
     text-transform: none;
@@ -27,8 +36,20 @@
     margin-bottom: 1rem;
 }
 
+@media (min-width: 452px) {
+    .business__title {
+        max-width: 21rem;
+    }
+}
+
 .business__description {
-    font-size: 0.9375rem;
+    font-size: clamp(0.938rem, 0.878rem + 0.25vw, 1rem);
     line-height: 1.6667;
     margin-bottom: 2rem;
+}
+
+@media (min-width: 452px) {
+    .business__description {
+        max-width: 27.875rem;
+    }
 }
