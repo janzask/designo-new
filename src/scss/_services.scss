@@ -52,12 +52,30 @@
     background-image: url(/img/web-design-card.webp);
 }
 
+@media (min-width:767px) {
+    .services__card--web {
+        background-image: url(/img/tablet/image-web-design.webp);
+    }
+}
+
 .services__card--app {
     background-image: url(/img/app-design-card.webp);
 }
 
+@media (min-width:767px) {
+    .services__card--app {
+        background-image: url(/img/tablet/image-app-design.webp);
+    }
+}
+
 .services__card--graphic {
     background-image: url(/img/graphic-design-card.webp);
+}
+
+@media (min-width:767px) {
+    .services__card--graphic {
+        background-image: url(/img/tablet/image-graphic-design.webp);
+    }
 }
 
 
