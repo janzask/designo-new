@@ -12,7 +12,7 @@
     }
 }
 
-@media (min-width: 710px) {
+@media (min-width: 580px) {
     .header {
         display: flex;
         justify-content: space-between;
@@ -41,7 +41,7 @@
     max-width: 12.25rem;
 }
 
-@media (min-width:710px) {
+@media (min-width:580px) {
     .header__image--hamburger {
         display: none;
     }
@@ -55,7 +55,7 @@
     display: none; /* až bude fungovat skrývat jinak */
 }
 
-@media (min-width:710px) {
+@media (min-width:580px) {
     .header__navigation {
         display: block;
     }
@@ -69,10 +69,13 @@
 
 .header__link {
     color: var(--colors-dark-grey);
-    font-size: 0.875rem;
+    font-size: clamp(0.75rem, 0.364rem + 1.06vw, 0.875rem);
     font-weight: 400;
     text-transform: uppercase;
-    line-height: 1;
-    letter-spacing: 0.143rem;
-    padding-left: 2.65rem;
+    letter-spacing: 0.123rem;
+    padding-left: clamp(0.8rem, -4.83rem + 15.53vw, 2.625rem);
+}
+
+.header__link:hover {
+    text-decoration: underline;
 }
