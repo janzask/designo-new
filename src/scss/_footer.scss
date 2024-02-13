@@ -84,7 +84,7 @@
         align-items: flex-end;
         margin-top: 2rem;
         text-align: left;
-        gap: 4.125rem;
+        gap: clamp(1.5rem, -36.816rem + 85.29vw, 4.125rem);
     }
 }
 
