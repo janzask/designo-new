@@ -13,21 +13,21 @@
     </head>
     <body>
         <header class="header">
-            <h1 class="navigation">
-                <span class="navigation__logo">
-                    <img class="navigation__image" src="/img/logo/logo-dark-new.svg" alt="Designo"/>
-                </span>
-                <span>
-                    <img class="navigation__image navigation__image--hamburger" src="/img/icons/icon-hamburger.svg" alt="menu" width="24" height="20">
-                </span>
-            </h1>
-            <nav class="navigation__menu">
-                <ul class="navigation__list">
-                    <li><a class="navigation__link" href="/">Our Company</a></li>
-                    <li><a class="navigation__link" href="/locations">Locations</a></li>
-                    <li><a class="navigation__link" href="/contact">Contact</a></li>
-                </ul>
-            </nav>
+            <section class="navigation">
+                <h1 class="navigation__brand">
+                        <img class="navigation__logo" src="/img/logo/logo-dark-new.svg" alt="Designo"/>
+                </h1>
+                <nav class="navigation__menu">
+                    <ul class="navigation__list">
+                        <li><a class="navigation__link" href="/">Our Company</a></li>
+                        <li><a class="navigation__link" href="/locations">Locations</a></li>
+                        <li><a class="navigation__link" href="/contact">Contact</a></li>
+                    </ul>
+                </nav>
+                    <div class="navigation__hamburger">
+                        <img src="/img/icons/icon-hamburger.svg" alt="menu" width="24" height="20">
+                    </div>
+            </section>
         </header>
         <main>
             {% block content %}{% endblock %}
