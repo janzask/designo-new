@@ -1,17 +1,15 @@
 .navigation {
-    margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    column-gap: 1rem;
 }
 
-.navigation__image {
-    max-width: 12.25rem;
+.navigation__brand {
+    margin: 0;
 }
 
 @media (min-width:580px) {
-    .navigation__image--hamburger {
+    .navigation__hamburger {
         display: none;
     }
 }
