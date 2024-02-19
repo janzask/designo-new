@@ -15,7 +15,7 @@
         <header class="header">
             <section class="navigation">
                 <h1 class="navigation__brand">
-                        <img class="navigation__logo" src="/img/logo/logo-dark-new.svg" alt="Designo"/>
+                     <img class="navigation__logo" src="/img/logo/logo-dark-new.svg" alt="Designo"/>
                 </h1>
                 <nav class="navigation__menu">
                     <ul class="navigation__list">
@@ -43,15 +43,17 @@
         </main>
         {% block footer %}
             <footer class="footer">
-                <article class="footer__article">
-                    <section class="footer__menu">
-                        <img class="footer__logo" src="/img/logo/logo-light-new.svg" alt="Designo"/>
-                        <div class="footer__navigation">
-                            <a class="footer__link" href="./">Our Company</a>
-                            <a class="footer__link" href="./locations">Locations</a>
-                            <a class="footer__link" href="./contact">Contact</a>
-                        </div>
-                    </section>
+                <section class="navigation navigation--footer">
+                    <div class="navigation__brand navigation__brand--footer">
+                        <img class="navigation__logo" src="/img/logo/logo-light-new.svg" alt="Designo"/>
+                    </div>
+                        <nav class="navigation__menu">
+                            <ul class="navigation__list">
+                                <li><a class="navigation__link" href="./">Our Company</a></li>
+                                <li><a class="navigation__link" href="./locations">Locations</a></li>
+                                <li><a class="navigation__link" href="./contact">Contact</a></li>
+                            </ul>
+                        </nav>
                     <section class="footer__offices">
                         <div class="footer__content">
                             <p class="footer__title">Designo Central Office</p>
@@ -73,7 +75,7 @@
                             </ul>
                         </div>
                     </section>
-                </article>
+                </section>
             </footer>
         {% endblock %}
     </body>
