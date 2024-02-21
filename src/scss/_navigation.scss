@@ -4,8 +4,19 @@
     align-items: center;
 }
 
+.navigation--footer {
+    padding: calc(var(--footer-offset) + 4.275rem) 1.5rem 4rem;
+    flex-direction: column;
+    text-align: center;
+}
+
 .navigation__brand {
     margin: 0;
+}
+
+.navigation__brand--footer {
+    border-bottom: 1px solid rgb(255 255 255 / 0.1);
+    padding-bottom: 2rem;
 }
 
 @media (min-width:580px) {
@@ -27,7 +38,7 @@
         clip: rect(0, 0, 0, 0);
         white-space: nowrap;
         border: 0;
-  }
+}
 
 @media (min-width:580px) {
     .navigation__menu {
@@ -35,10 +46,23 @@
     }
 }
 
+// vyskusat sem dat gap medzi linky na oddelenie 2rem ??
+
+.navigation__menu--footer {
+    all: unset;
+    margin-bottom: 2.5rem;
+}
+
 .navigation__list {
     display: flex;
     list-style: none;
     margin: 0;
+}
+
+.navigation__list--footer {
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 0;
 }
 
 .navigation__link {
@@ -48,6 +72,16 @@
     text-transform: uppercase;
     letter-spacing: 0.123rem;
     padding-left: clamp(0.8rem, -4.83rem + 15.53vw, 2.625rem);
+}
+
+.navigation__link--footer {
+    color: inherit;
+    font-size: 0.875rem;
+    line-height: 1;
+    letter-spacing: 0.143em;
+    padding: 0;
+    padding-top: 2rem;
+
 }
 
 .navigation__link:hover {
