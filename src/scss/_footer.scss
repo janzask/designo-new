@@ -103,6 +103,11 @@
     font-weight: 700;
 }
 
+.footer__social {
+    display: flex;
+    justify-content: space-around;
+}
+
 .footer__icons {
     margin: 0;
     padding: 0;
