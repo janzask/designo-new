@@ -15,7 +15,6 @@
 }
 
 .navigation__brand--footer {
-    border-bottom: 1px solid rgb(255 255 255 / 0.1);
     padding-bottom: 2rem;
 }
 
@@ -46,11 +45,11 @@
     }
 }
 
-// vyskusat sem dat gap medzi linky na oddelenie 2rem ??
-
 .navigation__menu--footer {
     all: unset;
+    width: 20.375rem;
     margin-bottom: 2.5rem;
+    border-top: 1px solid rgb(255 255 255 / 0.1);
 }
 
 .navigation__list {
@@ -61,7 +60,6 @@
 
 .navigation__list--footer {
     flex-direction: column;
-    margin-top: 2rem;
     padding: 0;
 }
 
@@ -78,10 +76,8 @@
     color: inherit;
     font-size: 0.875rem;
     line-height: 1;
-    letter-spacing: 0.143em;
     padding: 0;
     padding-top: 2rem;
-
 }
 
 .navigation__link:hover {
