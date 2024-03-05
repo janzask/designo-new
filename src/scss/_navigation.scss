@@ -4,18 +4,13 @@
     align-items: center;
 }
 
-.navigation--footer {
-    padding: calc(var(--footer-offset) + 4.275rem) 1.5rem 4rem;
-    flex-direction: column;
-    text-align: center;
-}
-
 .navigation__brand {
     margin: 0;
 }
 
 .navigation__brand--footer {
     padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(255 255 255 / 0.1);
 }
 
 @media (min-width:580px) {
@@ -47,9 +42,6 @@
 
 .navigation__menu--footer {
     all: unset;
-    width: 20.375rem;
-    margin-bottom: 2.5rem;
-    border-top: 1px solid rgb(255 255 255 / 0.1);
 }
 
 .navigation__directory {
@@ -72,7 +64,6 @@
 }
 
 .navigation__list--footer {
-    color: inherit;
     font-size: 0.875rem;
     line-height: 1;
     padding: 0;
