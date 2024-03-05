@@ -52,19 +52,18 @@
     border-top: 1px solid rgb(255 255 255 / 0.1);
 }
 
-.navigation__list {
+.navigation__directory {
     display: flex;
     list-style: none;
     margin: 0;
 }
 
-.navigation__list--footer {
+.navigation__directory--footer {
     flex-direction: column;
     padding: 0;
 }
 
-.navigation__link {
-    color: var(--colors-dark-grey);
+.navigation__list {
     font-size: clamp(0.75rem, 0.364rem + 1.06vw, 0.875rem);
     font-weight: 400;
     text-transform: uppercase;
@@ -72,7 +71,7 @@
     padding-left: clamp(0.8rem, -4.83rem + 15.53vw, 2.625rem);
 }
 
-.navigation__link--footer {
+.navigation__list--footer {
     color: inherit;
     font-size: 0.875rem;
     line-height: 1;
@@ -80,6 +79,6 @@
     padding-top: 2rem;
 }
 
-.navigation__link:hover {
+.navigation__list:hover {
     text-decoration: underline;
 }
