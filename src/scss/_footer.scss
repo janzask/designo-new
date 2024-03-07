@@ -9,6 +9,13 @@
     text-align: center;
 }
 
+@media (min-width: 640px) {
+    .footer {
+        padding: calc(var(--footer-offset) + 4.975rem) 1.5rem 4rem;
+        gap: 0;
+    }
+}
+
 @media (min-width: 700px) {
     .footer__offices {
         display: flex;
