@@ -16,6 +16,12 @@
     }
 }
 
+@media (min-width: 640px) {
+    .footer__offices {
+        margin-top: 2rem;
+    }
+}
+
 @media (min-width: 700px) {
     .footer__offices {
         display: flex;
