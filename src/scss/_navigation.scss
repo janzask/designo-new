@@ -4,6 +4,12 @@
     align-items: center;
 }
 
+@media (min-width: 640px) {
+    .navigation__footer {
+        border-bottom: 1px solid rgb(255 255 255 / 0.1);
+    }
+}
+
 .navigation__brand {
     margin: 0;
 }
@@ -24,7 +30,7 @@
     .navigation__index {
         display: flex;
         align-items: center;
-        border-bottom: 1px solid rgb(255 255 255 / 0.1);
+        border-bottom: none;
         margin-bottom: 2.5rem;
         gap: clamp(2rem, -24.875rem + 67.19vw, 7.375rem);
     }
@@ -103,4 +109,8 @@
 
 .navigation__list:hover {
     text-decoration: underline;
+}
+
+.navigation__link {
+    line-height: 1.8;
 }
