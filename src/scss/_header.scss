@@ -18,3 +18,16 @@
         padding-bottom: 4rem;
     }
 }
+
+@media (min-width: 769px) {
+    .header {
+        max-width: 69.375rem;
+        margin-inline: 2rem;
+    }
+}
+
+@media (min-width: 1174px) {
+    .header {
+        margin-inline: auto;
+    }
+}
