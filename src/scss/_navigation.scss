@@ -68,12 +68,12 @@
     margin: 0;
     padding-left: 0;
     column-gap: clamp(0.8rem, -4.83rem + 15.53vw, 2.625rem);  // from 580px to 768px
-    row-gap: 2rem;
+    row-gap: 1.25rem;
 }
 
 .navigation__list--footer {
     flex-direction: column;
-    margin-top: 2rem;
+    margin-top: 1.625rem;
 }
 
 @media (min-width: 640px) {
