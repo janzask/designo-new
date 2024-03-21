@@ -188,6 +188,10 @@
     }
 }
 
+.intro__image--desktop {
+    display: none;
+}
+
 @media (min-width: 1018px) {
     .intro__image--desktop {
         display: block;
