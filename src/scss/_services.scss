@@ -4,6 +4,16 @@
     margin: 7.5rem 0;
 }
 
+@media (min-width: 1018px) {
+    .services {
+        display: grid;
+        grid-template-areas: "a a b b" "a a c c";
+        gap: 1.5rem 1.875rem;
+        max-width: 69.375rem;
+        margin-inline: auto;
+    }
+}
+
 .services--smaller {
     margin-top: 6rem;
     margin-bottom: 6rem;
@@ -44,6 +54,19 @@
     }
 } 
 
+@media (min-width: 1018px) {
+    .services__card {
+        margin: 0;
+        min-width: clamp(28.875rem, -2.938rem + 50vw, 33.75rem);  // from 1018px to 1174px
+    }
+}
+
+@media (min-width: 1174px) {
+    .services__card {
+        max-width: 33.75rem;
+    }
+}
+
 .services__card:last-of-type {
     margin-bottom: 0;
 }
@@ -58,6 +81,13 @@
     }
 }
 
+@media (min-width:1018px) {
+    .services__card--web {
+        grid-area: a;
+        min-height: clamp(12.5rem, -166.955rem + 282.05vw, 40rem);
+    }
+}
+
 .services__card--app {
     background-image: url(/img/app-design-card.webp);
 }
@@ -68,6 +98,12 @@
     }
 }
 
+@media (min-width:1018px) {
+    .services__card--app {
+        grid-area: b;
+    }
+}
+
 .services__card--graphic {
     background-image: url(/img/graphic-design-card.webp);
 }
@@ -75,6 +111,12 @@
 @media (min-width:640px) {
     .services__card--graphic {
         background-image: url(/img/tablet/image-graphic-design.webp);
+    }
+}
+
+@media (min-width:1018px) {
+    .services__card--graphic {
+        grid-area: c;
     }
 }
 
