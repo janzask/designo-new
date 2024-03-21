@@ -33,6 +33,9 @@
 @media (min-width: 1018px) {
     .intro {
         display: flex;
+        justify-content: space-between;
+        padding-inline: clamp(2rem, -24.103rem + 41.03vw, 6rem);
+        padding-top: clamp(5rem, -21.918rem + 42.31vw, 9.125rem);
     }
 }
 
@@ -82,7 +85,7 @@
 
 @media (min-width: 1018px) {
     .intro__content {
-        padding: 9.125rem 6rem;
+        padding: 0;
         text-align: left;
     }
 }
