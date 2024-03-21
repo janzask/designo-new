@@ -87,6 +87,12 @@ p {
     }
 }
 
+@media (min-width:1018px) {
+    .horizontal__spacer {
+        margin-inline: 2rem;
+    }
+}
+
 img {
     display: block;
     height: auto;
