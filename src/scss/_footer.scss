@@ -28,7 +28,7 @@
         flex-direction: row;
         align-items: flex-end;
         text-align: left;
-        gap: clamp(1.5rem, -36.816rem + 85.29vw, 4.125rem);
+        column-gap: clamp(1.5rem, -36.816rem + 85.29vw, 4.125rem);  //from 700px to 768px
     }
 }
 
