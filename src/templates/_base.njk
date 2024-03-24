@@ -33,10 +33,12 @@
             {% block content %}{% endblock %}
             {% block calltoaction %}
                 <article class="business">
-                    <h3 class="business__title">Let’s talk about your project</h3>
-                    <p class="business__description">
-                        Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.
-                    </p>
+                    <div class="business__content">
+                        <h3 class="business__title">Let’s talk about your project</h3>
+                        <p class="business__description">
+                            Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.
+                        </p>
+                    </div>
                     <a class="button" href="./contact">Get in touch</a>
                 </article>
             {% endblock %}
@@ -44,7 +46,7 @@
         {% block footer %}
             <footer class="footer">
                 <section class="navigation navigation__footer">
-                    <div class="navigation__index">
+                    <div class="navigation__index navigation__index--footer">
                         <div class="navigation__brand navigation__brand--footer">
                             <img class="navigation__logo" src="/img/logo/logo-light-new.svg" alt="Designo"/>
                         </div>
