@@ -19,10 +19,26 @@
     }
 }
 
+@media (min-width: 1018px) {
+    .properties {
+        display: flex;
+        max-width: 69.375rem;
+        column-gap: 1.875rem;
+        margin-top: 10rem;
+    }
+}
+
 @media (min-width: 720px) {
     .properties__content {
         max-width: 27.5rem;
         margin-left: 3rem;
+    }
+}
+
+@media (min-width: 1018px) {
+    .properties__content {
+        margin-top: 3rem;
+        margin-left: 0;
     }
 }
 
@@ -35,6 +51,12 @@
     .properties__title {
         margin: 0;
         margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1018px) {
+    .properties__title {
+        margin-bottom: 2rem;
     }
 }
 
@@ -51,6 +73,13 @@
         margin-inline: auto;
         flex-direction: row;
         margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 1018px) {
+    .properties__property {
+        flex-direction: column;
+        text-align: center;
     }
 }
 
