@@ -27,7 +27,7 @@
         align-items: center;
         border-bottom: 1px solid rgb(255 255 255 / 0.1);
         padding-bottom: 2.5rem;
-        gap: clamp(2rem, -24.875rem + 67.19vw, 7.375rem);
+        column-gap: clamp(3rem, -21.5rem + 61.25vw, 33.625rem);
     }
 }
  
