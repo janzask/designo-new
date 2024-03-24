@@ -20,12 +20,32 @@
 
 @media (min-width: 720px) {
     .business {
-        max-width: 43.125rem;
+        max-width: clamp(43.125rem, 13.125rem + 62.5vw, 69.375rem);  // from 768px to 1440px
         margin-inline: auto;
         min-height: 21.875rem;
     }
 }
 
+@media (min-width: 1018px) {
+    .business {
+        min-height: 18.25rem;
+        flex-direction: row;
+        column-gap: clamp(3rem, -36.2rem + 61.61vw, 19.25rem);  // from 1018px to 1440px
+    }
+}
+
+.business__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 1018px) {
+    .business__content {
+        align-items: flex-start;
+        text-align: left;
+    }
+}
 
 .business__title {
     font-size: clamp(2rem, 1.523rem + 2.04vw, 2.5rem);
@@ -51,5 +71,11 @@
 @media (min-width: 452px) {
     .business__description {
         max-width: 27.875rem;
+    }
+}
+
+@media (min-width: 1018px) {
+    .business__description {
+        margin-bottom: 0;
     }
 }
