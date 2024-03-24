@@ -21,6 +21,12 @@
     }
 }
 
+@media (min-width: 1018px) {
+    :root {
+        --footer-offset: 4.5rem;
+    }
+}
+
 body,
 input,
 textarea,
