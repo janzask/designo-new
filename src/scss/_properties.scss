@@ -25,6 +25,7 @@
         max-width: 69.375rem;
         column-gap: 1.875rem;
         margin-top: 10rem;
+        margin-bottom: 10rem;
     }
 }
 
@@ -80,6 +81,7 @@
     .properties__property {
         flex-direction: column;
         text-align: center;
+        margin-bottom: 0;
     }
 }
 
