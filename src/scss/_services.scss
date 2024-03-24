@@ -86,6 +86,7 @@
     .services__card--web {
         grid-area: a;
         min-height: clamp(12.5rem, -166.955rem + 282.05vw, 40rem);
+        background-image: url(/img/desktop/desktop-web-design.webp);
     }
 }
 
@@ -102,6 +103,7 @@
 @media (min-width:1018px) {
     .services__card--app {
         grid-area: b;
+        background-image: url(/img/desktop/desktop-app-design.webp);
     }
 }
 
@@ -118,6 +120,7 @@
 @media (min-width:1018px) {
     .services__card--graphic {
         grid-area: c;
+        background-image: url(/img/desktop/desktop-graphic-design.webp);
     }
 }
 
