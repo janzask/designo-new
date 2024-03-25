@@ -16,6 +16,12 @@
     }
 }
 
+@media (min-width: 1440px) {
+    .footer {
+        padding: calc(var(--footer-offset) + 4.375rem) 1.5rem 4rem;
+    }
+}
+
 @media (min-width: 640px) {
     .footer__offices {
         margin-top: 2rem;
