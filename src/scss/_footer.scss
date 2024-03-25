@@ -31,19 +31,12 @@
 
 @media (min-width: 700px) {
     .footer__offices {
+        min-width: clamp(39.875rem, 11.97rem + 63.78vw, 69.375rem);  // from 700px to 1440px
         display: flex;
         flex-direction: row;
         align-items: flex-end;
-        text-align: left;
-        column-gap: clamp(1.5rem, -36.816rem + 85.29vw, 4.125rem);  //from 700px to 768px
-    }
-}
-
-@media (min-width: 1018px) {
-    .footer__offices {
-        min-width: 69.375rem;
-        gap: 0;
         justify-content: space-between;
+        text-align: left;
     }
 }
 
