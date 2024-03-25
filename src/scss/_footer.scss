@@ -11,14 +11,7 @@
 
 @media (min-width: 640px) {
     .footer {
-        padding: calc(var(--footer-offset) + 4.975rem) 1.5rem 4rem;
-        gap: 0;
-    }
-}
-
-@media (min-width: 640px) {
-    .footer {
-        padding: calc(var(--footer-offset) + 4.475rem) 1.5rem 4rem;
+        padding: calc(var(--footer-offset) + 5.075rem) 1.5rem 4rem;
         gap: 0;
     }
 }
