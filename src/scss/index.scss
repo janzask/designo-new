@@ -9,7 +9,7 @@
     --colors-black: #1d1c1e;
     --colors-white: #ffffff;
     --colors-light-peach: #ffad9b;
-    --colors-very-light-peach: #FDF3F0;
+    --colors-very-light-peach: #fdf3f0;
     --colors-dark-grey: #333136;
     --colors-light-grey: #f1f3f5;
     --footer-offset: 11.6rem;
@@ -87,13 +87,13 @@ p {
     margin-left: 1.5rem;
 }
 
-@media (min-width:470px) {
+@media (min-width: 470px) {
     .horizontal__spacer {
         margin-inline: 0;
     }
 }
 
-@media (min-width:1018px) {
+@media (min-width: 1018px) {
     .horizontal__spacer {
         margin-inline: 2rem;
     }
@@ -114,4 +114,4 @@ img {
 @import "design";
 @import "form";
 @import "locations";
-@import "navigation"
+@import "navigation";

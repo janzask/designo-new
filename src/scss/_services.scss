@@ -41,25 +41,25 @@
     overflow: hidden;
 }
 
-@media (min-width:470px) {
+@media (min-width: 470px) {
     .services__card {
         margin-inline: 1rem;
         min-height: 12.5rem;
     }
-} 
+}
 
-@media (min-width:720px) {
+@media (min-width: 720px) {
     .services__card {
         min-width: 43.125rem;
         margin-inline: auto;
         gap: 1.5rem;
     }
-} 
+}
 
 @media (min-width: 1018px) {
     .services__card {
         margin: 0;
-        min-width: clamp(28.875rem, -2.938rem + 50vw, 33.75rem);  // from 1018px to 1174px
+        min-width: clamp(28.875rem, -2.938rem + 50vw, 33.75rem); // from 1018px to 1174px
     }
 }
 
@@ -77,13 +77,13 @@
     background-image: url(/img/web-design-card.webp);
 }
 
-@media (min-width:640px) {
+@media (min-width: 640px) {
     .services__card--web {
         background-image: url(/img/tablet/image-web-design.webp);
     }
 }
 
-@media (min-width:1018px) {
+@media (min-width: 1018px) {
     .services__card--web {
         grid-area: a;
         min-height: clamp(12.5rem, -166.955rem + 282.05vw, 40rem);
@@ -95,13 +95,13 @@
     background-image: url(/img/app-design-card.webp);
 }
 
-@media (min-width:640px) {
+@media (min-width: 640px) {
     .services__card--app {
         background-image: url(/img/tablet/image-app-design.webp);
     }
 }
 
-@media (min-width:1018px) {
+@media (min-width: 1018px) {
     .services__card--app {
         grid-area: b;
         background-image: url(/img/desktop/desktop-app-design.webp);
@@ -112,21 +112,20 @@
     background-image: url(/img/graphic-design-card.webp);
 }
 
-@media (min-width:640px) {
+@media (min-width: 640px) {
     .services__card--graphic {
         background-image: url(/img/tablet/image-graphic-design.webp);
     }
 }
 
-@media (min-width:1018px) {
+@media (min-width: 1018px) {
     .services__card--graphic {
         grid-area: c;
         background-image: url(/img/desktop/desktop-graphic-design.webp);
     }
 }
 
-
-.services__title { 
+.services__title {
     font-size: clamp(1.75rem, 1.034rem + 3.05vw, 2.5rem);
     text-align: center;
 }
