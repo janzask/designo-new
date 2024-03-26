@@ -7,7 +7,7 @@
 @media (min-width: 1018px) {
     .services {
         display: grid;
-        grid-template-areas: "a a b b" "a a c c";
+        grid-template-areas: "a b" "a c";
         column-gap: 1.875rem;
         row-gap: 1.5rem;
         max-width: 69.375rem;
