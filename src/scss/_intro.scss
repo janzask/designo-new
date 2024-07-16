@@ -58,6 +58,12 @@
     padding: 1.5rem;
 }
 
+@media (min-width: 470px) {
+    .intro--design {
+        min-height: 15.75rem;
+    }
+}
+
 .intro--contact {
     background-image: url(/img/bg-pattern-hero-contact-mobile.svg);
     background-position: -5.8rem 0;
