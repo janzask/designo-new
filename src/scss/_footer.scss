@@ -24,13 +24,13 @@
 
 @media (min-width: 640px) {
     .footer__offices {
-        margin-top: 2rem;
+        margin-top: 1.9rem;
     }
 }
 
 @media (min-width: 700px) {
     .footer__offices {
-        min-width: clamp(39.875rem, 11.97rem + 63.78vw, 69.375rem); // from 700px to 1440px
+        min-width: clamp(40.75rem, 13.672rem + 61.89vw, 69.375rem); // from 700px to 1440px
         display: flex;
         flex-direction: row;
         align-items: flex-end;

@@ -26,14 +26,14 @@
         display: flex;
         align-items: center;
         border-bottom: 1px solid rgb(255 255 255 / 0.1);
-        padding-bottom: 2.5rem;
+        padding-bottom: 2.4rem;
         column-gap: clamp(3.6rem, -15.275rem + 47.19vw, 7.375rem);  // from 640px to 768px
     }
 }
 
 @media (min-width: 768px) {
     .navigation__index {
-        column-gap: clamp(7.375rem, -22.768rem + 62.8vw, 33.75rem);  // from 768px to 1440px
+        column-gap: clamp(7.375rem, -22.625rem + 62.5vw, 33.625rem);  // from 768px to 1440px
     }
 }
 
