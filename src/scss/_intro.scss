@@ -10,7 +10,6 @@
 
 @media (min-width: 470px) {
     .intro {
-        margin-inline: 1rem;
         border-radius: 1rem;
     }
 }
@@ -18,16 +17,7 @@
 @media (min-width: 720px) {
     .intro {
         max-height: 52.75rem;
-        max-width: 43.125rem;
-        margin-inline: auto;
         background-position: bottom 5.5rem left 10.8rem;
-    }
-}
-
-@media (min-width: 769px) {
-    .intro {
-        max-width: 69.375rem;
-        margin-inline: 2rem;
     }
 }
 
@@ -43,7 +33,6 @@
 @media (min-width: 1174px) {
     .intro {
         min-height: 40rem;
-        margin-inline: auto;
     }
 }
 

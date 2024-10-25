@@ -9,8 +9,7 @@
     background-repeat: no-repeat;
     background-position: -15rem -6.4rem;
     text-align: center;
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
+    margin-inline: 1.5rem;
     margin-bottom: calc(var(--footer-offset) * -1);
     padding: 1.5rem;
     border-radius: 1rem;
@@ -18,9 +17,14 @@
     color: var(--colors-white);
 }
 
+@media (min-width: 470px) {
+    .business {
+        margin-inline: 0;
+    }
+}
+
 @media (min-width: 720px) {
     .business {
-        max-width: clamp(43.125rem, 13.125rem + 62.5vw, 69.375rem); // from 768px to 1440px
         margin-inline: auto;
         min-height: 21.875rem;
     }

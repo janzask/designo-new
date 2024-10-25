@@ -12,7 +12,8 @@
         </title>
     </head>
     <body>
-        <header class="header container">
+        <div class="container">
+        <header class="header">
             <section class="navigation">
                 <h1 class="navigation__brand">
                     <img class="navigation__logo" src="/img/logo/logo-dark-new.svg" alt="Designo"/>
@@ -35,6 +36,7 @@
                 </div>
             </section>
         </header>
+        </div>
         <main class="container">
             {% block content %}{% endblock %}
             {% block calltoaction %}
@@ -51,7 +53,7 @@
         </main>
         {% block footer %}
             <footer class="footer">
-                <div class="footer__content">
+                <div class="footer__content container">
                     <section class="navigation navigation--footer">
                         <div class="navigation__brand navigation__brand--footer">
                             <img class="navigation__logo" src="/img/logo/logo-light-new.svg" alt="Designo"/>

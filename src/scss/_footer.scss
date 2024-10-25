@@ -5,8 +5,6 @@
 }
 
 .footer__content {
-    max-width: 69.4375rem;
-    margin-inline: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,7 +34,7 @@
 
 @media (min-width: 700px) {
     .footer__offices {
-        min-width: clamp(40.75rem, 13.672rem + 61.89vw, 69.375rem); // from 700px to 1440px
+        width: 100%;
         display: flex;
         flex-direction: row;
         align-items: flex-end;

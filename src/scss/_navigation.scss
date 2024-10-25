@@ -13,14 +13,7 @@
 @media (min-width: 640px) {
     .navigation--footer {
         flex-direction: row;
-        justify-content: space-around;
         padding-bottom: 2.5rem;
-    }
-}
-
-@media (min-width: 1440px) {
-    .navigation--footer {
-        justify-content: space-between;
     }
 }
     

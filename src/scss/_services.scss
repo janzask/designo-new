@@ -43,15 +43,12 @@
 
 @media (min-width: 470px) {
     .services__card {
-        margin-inline: 1rem;
         min-height: 12.5rem;
     }
 }
 
 @media (min-width: 720px) {
     .services__card {
-        min-width: 43.125rem;
-        margin-inline: auto;
         gap: 1.5rem;
     }
 }
@@ -59,7 +56,12 @@
 @media (min-width: 1018px) {
     .services__card {
         margin: 0;
-        min-width: clamp(28.875rem, -2.938rem + 50vw, 33.75rem); // from 1018px to 1174px
+    }
+}
+
+@media (min-width: 1142px) {
+    .services__card {
+        min-width: 33.75rem;
     }
 }
 

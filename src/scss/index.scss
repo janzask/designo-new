@@ -82,6 +82,38 @@ p {
     margin: 0;
 }
 
+.container {
+    @media (min-width: 470px) {
+        /* padding-inline: 1rem; */ // dal som spat margin inline lebo mi to blblo vo footer
+        margin-inline: 1rem;
+        /* margin-inline: auto; */  
+    }
+    @media (min-width: 720px) {
+        max-width: 43.125rem;
+        /* padding-inline: 0; */
+        margin-inline: auto;
+}
+}
+
+@media (min-width: 880px) {
+    .container {
+        max-width: 52rem;
+    }
+}
+
+@media (min-width: 1018px) {
+    .container {
+        max-width: 60rem;
+    }
+}
+
+@media (min-width: 1142px) {
+    .container {
+        max-width: 69.375rem;
+    }
+}
+
+
 .horizontal__spacer {
     margin-right: 1.5rem;
     margin-left: 1.5rem;
@@ -90,12 +122,6 @@ p {
 @media (min-width: 470px) {
     .horizontal__spacer {
         margin-inline: 0;
-    }
-}
-
-@media (min-width: 1018px) {
-    .horizontal__spacer {
-        margin-inline: 2rem;
     }
 }
 
