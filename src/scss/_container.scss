@@ -1,0 +1,22 @@
+.container {
+    @media (min-width: 470px) {
+        margin-inline: 1rem;
+    }
+
+    @media (min-width: 720px) {
+        max-width: 43.125rem;
+        margin-inline: auto;
+    }
+
+    @media (min-width: 880px) {
+        max-width: 52rem;
+    }
+
+    @media (min-width: 1018px) {
+        max-width: 60rem;
+    }
+
+    @media (min-width: 1142px) {
+        max-width: 69.375rem;
+    }
+}
