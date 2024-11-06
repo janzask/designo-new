@@ -26,16 +26,12 @@
 
 .button--intro {
     margin-top: 1.5rem;
-}
 
-@media (min-width: 720px) {
-    .button--intro {
+    @media (min-width: 720px) {
         margin-top: 1.05rem;
     }
-}
 
-@media (min-width: 1018px) {
-    .button--intro {
+    @media (min-width: 1018px) {
         margin-top: 2.5rem;
         text-align: center;
     }

@@ -8,15 +8,13 @@
 .navigation--footer {
     width: 100%;
     flex-direction: column;
-}
 
-@media (min-width: 640px) {
-    .navigation--footer {
+    @media (min-width: 640px) {
         flex-direction: row;
         padding-bottom: 2.5rem;
     }
 }
-    
+
 .navigation__brand {
     margin: 0;
 }
@@ -24,10 +22,8 @@
 .navigation__brand--footer {
     padding-bottom: 2rem;
     border-bottom: 1px solid rgb(255 255 255 / 0.1);
-}
 
-@media (min-width: 640px) {
-    .navigation__brand--footer {
+    @media (min-width: 640px) {
         padding: 0;
         border-bottom: none;
     }
@@ -52,10 +48,8 @@
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
-}
 
-@media (min-width: 580px) {
-    .navigation__menu {
+    @media (min-width: 580px) {
         all: unset;
     }
 }
@@ -76,10 +70,8 @@
 .navigation__list--footer {
     flex-direction: column;
     margin-top: 1.625rem;
-}
 
-@media (min-width: 640px) {
-    .navigation__list--footer {
+    @media (min-width: 640px) {
         flex-direction: row;
         margin-top: 0;
     }

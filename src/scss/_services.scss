@@ -2,10 +2,8 @@
     display: flex;
     flex-direction: column;
     margin: 7.5rem 0;
-}
 
-@media (min-width: 1018px) {
-    .services {
+    @media (min-width: 1018px) {
         display: grid;
         grid-template-areas: "a b" "a c";
         column-gap: 1.875rem;
@@ -39,28 +37,20 @@
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
-}
 
-@media (min-width: 470px) {
-    .services__card {
+    @media (min-width: 470px) {
         min-height: 12.5rem;
     }
-}
 
-@media (min-width: 720px) {
-    .services__card {
+    @media (min-width: 720px) {
         gap: 1.5rem;
     }
-}
 
-@media (min-width: 1018px) {
-    .services__card {
+    @media (min-width: 1018px) {
         margin: 0;
     }
-}
 
-@media (min-width: 1142px) {
-    .services__card {
+    @media (min-width: 1142px) {
         min-width: 33.75rem;
     }
 }
@@ -71,16 +61,12 @@
 
 .services__card--web {
     background-image: url(/img/web-design-card.webp);
-}
 
-@media (min-width: 640px) {
-    .services__card--web {
+    @media (min-width: 640px) {
         background-image: url(/img/tablet/image-web-design.webp);
     }
-}
 
-@media (min-width: 1018px) {
-    .services__card--web {
+    @media (min-width: 1018px) {
         grid-area: a;
         min-height: clamp(12.5rem, -166.955rem + 282.05vw, 40rem);
         background-image: url(/img/desktop/desktop-web-design.webp);
@@ -89,16 +75,12 @@
 
 .services__card--app {
     background-image: url(/img/app-design-card.webp);
-}
 
-@media (min-width: 640px) {
-    .services__card--app {
+    @media (min-width: 640px) {
         background-image: url(/img/tablet/image-app-design.webp);
     }
-}
 
-@media (min-width: 1018px) {
-    .services__card--app {
+    @media (min-width: 1018px) {
         grid-area: b;
         background-image: url(/img/desktop/desktop-app-design.webp);
     }
@@ -106,16 +88,12 @@
 
 .services__card--graphic {
     background-image: url(/img/graphic-design-card.webp);
-}
 
-@media (min-width: 640px) {
-    .services__card--graphic {
+    @media (min-width: 640px) {
         background-image: url(/img/tablet/image-graphic-design.webp);
     }
-}
 
-@media (min-width: 1018px) {
-    .services__card--graphic {
+    @media (min-width: 1018px) {
         grid-area: c;
         background-image: url(/img/desktop/desktop-graphic-design.webp);
     }
