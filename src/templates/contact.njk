@@ -6,107 +6,107 @@
 
 {% block content %}
 
-    <section class="intro intro--contact">
-        <h2 class="intro__title">Contact Us</h2>
-        <p class="intro__description">
-          Ready to take it to the next level? Let’s talk about your project or idea and find out how we can help your business
-          grow. If you are looking for unique digital experiences that’s relatable to your users, drop us a line.
-        </p>
+<section class="intro intro--contact">
+  <h2 class="intro__title">Contact Us</h2>
+  <p class="intro__description">
+    Ready to take it to the next level? Let’s talk about your project or idea and find out how we can help your business
+    grow. If you are looking for unique digital experiences that’s relatable to your users, drop us a line.
+  </p>
 
-    <form class="form" method="post">
-      <div class="form__field">
-        <label class="form__label" for="name">Name</label>
-        <input class="form__input" type="text" id="name" name="name" required/>
+  <form class="form" method="post">
+    <div class="form__field">
+      <label class="form__label" for="name">Name</label>
+      <input class="form__input" type="text" id="name" name="name" required />
+    </div>
+    <div class="form__field">
+      <label class="form__label" for="email">Email Address</label>
+      <input class="form__input" type="email" id="email" name="email" required />
+    </div>
+    <div class="form__field">
+      <label class="form__label" for="phone">Phone</label>
+      <input class="form__input" type="tel" id="phone" name="phone" />
+    </div>
+    <div class="form__field">
+      <label class="form__label" for="message">Your Message</label>
+      <textarea class="form__input form__input--textarea" type="text" id="message" name="message"></textarea>
+    </div>
+    <button class="button button--submit">
+      Submit
+    </button>
+  </form>
+</section>
+
+<section class="properties">
+  <div class="properties__property properties__property--country">
+    <img src="/img/illustration/canada-oval.svg" alt="">
+    <h3 class="properties__title">Canada</h3>
+    <a class="button button--secondary" href="locations.html#canada_locations">See location</a>
+  </div>
+  <div class="properties__property properties__property--country">
+    <img src="/img/illustration/australia-oval.svg" alt="">
+    <h3 class="properties__title">Australia</h3>
+    <a class="button button--secondary" href="locations.html#australia_locations">See location</a>
+  </div>
+  <div class="properties__property properties__property--country">
+    <img src="/img/illustration/united-kingdom-oval.svg" alt="">
+    <h3 class="properties__title">United Kingdom</h3>
+    <a class="button button--secondary" href="locations.html#united_kingdom_locations">See location</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer__content container">
+    <section class="navigation navigation--footer">
+      <div class="navigation__brand navigation__brand--footer">
+        <img class="navigation__logo" src="/img/logo/logo-light-new.svg" alt="Designo" />
       </div>
-      <div class="form__field">
-        <label class="form__label" for="email">Email Address</label>
-        <input class="form__input" type="email" id="email" name="email" required/>
+      <div class="navigation__menu navigation__menu--footer">
+        <ul class="navigation__list navigation__list--footer">
+          <li class="navigation__item navigation__item--footer">
+            <a class="navigation__link" href="./">Our Company</a>
+          </li>
+          <li class="navigation__item navigation__item--footer">
+            <a class="navigation__link" href="./locations">Locations</a>
+          </li>
+          <li class="navigation__item navigation__item--footer">
+            <a class="navigation__link" href="./contact">Contact</a>
+          </li>
+        </ul>
       </div>
-      <div class="form__field">
-        <label class="form__label" for="phone">Phone</label>
-        <input class="form__input" type="tel" id="phone" name="phone"/>
-      </div>
-      <div class="form__field">
-        <label class="form__label" for="message">Your Message</label>
-        <textarea class="form__input form__input--textarea" type="text" id="message" name="message"></textarea>
-      </div>
-          <button class="button button--submit">
-            Submit
-          </button>
-    </form>
     </section>
-
-    <section class="properties">
-      <div class="properties__property properties__property--country">
-        <img src="/img/illustration/canada-oval.svg" alt="">
-        <h3 class="properties__title">Canada</h3>
-        <a class="button button--secondary" href="locations.html#canada_locations">See location</a>
+    <section class="footer__offices">
+      <div class="footer__column">
+        <p class="footer__title">Designo Central Office</p>
+        <p>3886 Wellington Street</p>
+        <p>Toronto, Ontario M9C 3J5</p>
       </div>
-      <div class="properties__property properties__property--country">
-        <img src="/img/illustration/australia-oval.svg" alt="">
-        <h3 class="properties__title">Australia</h3>
-        <a class="button button--secondary" href="locations.html#australia_locations">See location</a>
+      <div class="footer__column">
+        <p class="footer__title">Contact Us (Central Office)</p>
+        <p>P : +1 253-863-8967</p>
+        <p>M : contact@designo.co</p>
       </div>
-      <div class="properties__property properties__property--country">
-        <img src="/img/illustration/united-kingdom-oval.svg" alt="">
-        <h3 class="properties__title">United Kingdom</h3>
-        <a class="button button--secondary" href="locations.html#united_kingdom_locations">See location</a>
+      <div class="footer__social">
+        <ul class="footer__icons">
+          <li>
+            <a href="#"><img src="/img/icons/icon-facebook.svg" alt="Facebook" /> </a>
+          </li>
+          <li>
+            <a href="#"><img src="/img/icons/icon-youtube.svg" alt="Youtube" /> </a>
+          </li>
+          <li>
+            <a href="#"><img src="/img/icons/icon-twitter.svg" alt="Twitter" /> </a>
+          </li>
+          <li>
+            <a href="#"><img src="/img/icons/icon-pinterest.svg" alt="Pinterest" /> </a>
+          </li>
+          <li>
+            <a href="#"><img src="/img/icons/icon-instagram.svg" alt="Instagram" /> </a>
+          </li>
+        </ul>
       </div>
     </section>
-
-    <footer class="footer">
-      <div class="footer__content container">
-          <section class="navigation navigation--footer">
-              <div class="navigation__brand navigation__brand--footer">
-                  <img class="navigation__logo" src="/img/logo/logo-light-new.svg" alt="Designo"/>
-              </div>
-              <div class="navigation__menu navigation__menu--footer">
-                  <ul class="navigation__list navigation__list--footer">
-                      <li class="navigation__item navigation__item--footer">
-                          <a class="navigation__link" href="./">Our Company</a>
-                      </li>
-                      <li class="navigation__item navigation__item--footer">
-                          <a class="navigation__link" href="./locations">Locations</a>
-                      </li>
-                      <li class="navigation__item navigation__item--footer">
-                          <a class="navigation__link" href="./contact">Contact</a>
-                      </li>
-                  </ul>
-              </div>
-          </section>
-          <section class="footer__offices">
-              <div class="footer__column">
-                  <p class="footer__title">Designo Central Office</p>
-                  <p>3886 Wellington Street</p>
-                  <p>Toronto, Ontario M9C 3J5</p>
-              </div>
-              <div class="footer__column">
-                  <p class="footer__title">Contact Us (Central Office)</p>
-                  <p>P : +1 253-863-8967</p>
-                  <p>M : contact@designo.co</p>
-              </div>
-              <div class="footer__social">
-                  <ul class="footer__icons">
-                      <li>
-                          <a href="#"><img src="/img/icons/icon-facebook.svg" alt="Facebook"/> </a>
-                      </li>
-                      <li>
-                          <a href="#"><img src="/img/icons/icon-youtube.svg" alt="Youtube"/> </a>
-                      </li>
-                      <li>
-                          <a href="#"><img src="/img/icons/icon-twitter.svg" alt="Twitter"/> </a>
-                      </li>
-                      <li>
-                          <a href="#"><img src="/img/icons/icon-pinterest.svg" alt="Pinterest"/> </a>
-                      </li>
-                      <li>
-                          <a href="#"><img src="/img/icons/icon-instagram.svg" alt="Instagram"/> </a>
-                      </li>
-                  </ul>
-              </div>
-          </section>
-      </div>
-  </footer>
+  </div>
+</footer>
 {% endblock %}
 {% block footer %}{% endblock %}
 {% block calltoaction %}{% endblock %}
