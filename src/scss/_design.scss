@@ -10,16 +10,27 @@
     border-radius: 1rem;
     background-color: var(--colors-very-light-peach);
     overflow: hidden;
+
+    @media (min-width: 560px) {
+        display: flex;
+        max-height: 19.375rem;
+    }
 }
 
 .design__image {
-    width: 100%;
-    min-height: 20rem;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .design__content {
     padding: 2rem 1.75rem;
     text-align: center;
+
+    @media (min-width: 560px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .design__title {
