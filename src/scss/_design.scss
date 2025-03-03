@@ -8,6 +8,14 @@
         --container-spacer: 7.5rem;
         --project-spacer: 2rem;
     }
+
+    @media (min-width: 980px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem 1.875rem;
+        --project-spacer: 0;
+    }
 }
 
 .design__project {
@@ -21,6 +29,13 @@
         grid-template-columns: 1fr 1fr;
         align-items: center;
         min-height: 19.375rem;
+    }
+
+    @media (min-width: 980px) {
+        display: flex;
+        flex-direction: column;
+        max-width: 21.875rem;
+
     }
 }
 
