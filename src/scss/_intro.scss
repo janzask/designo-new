@@ -98,6 +98,12 @@
     }
 }
 
+.intro__title--design {
+    @media (min-width: 720px) {
+        margin-bottom: 1.5rem;
+    }
+}
+
 .intro__title--about {
     color: var(--colors-peach);
 }
